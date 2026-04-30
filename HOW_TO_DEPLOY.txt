@@ -1,0 +1,32 @@
+==========================================
+LOTUS Dashboard — How to deploy
+==========================================
+
+Just double-click "deploy.command" — this opens Terminal and runs the deploy script.
+
+Or run from Terminal:
+   cd ~/Desktop/lotus-snack-dashboard
+   bash deploy.sh
+
+What happens:
+  1. Detects your gh CLI authenticated user
+  2. Creates GitHub repo at <your-user>/lotus-snack-dashboard
+  3. Pushes all files
+  4. Enables GitHub Pages
+  5. Triggers first TikTok scrape
+
+After 1-2 minutes, dashboard is live at:
+  https://<your-user>.github.io/lotus-snack-dashboard/
+
+The dashboard auto-updates every 30 minutes via GitHub Actions.
+
+==========================================
+Future use — kol-dashboard-generator.skill
+==========================================
+
+Install the skill (.skill file in this folder) into Claude Code or Claude Desktop,
+then for any future campaign just say:
+  "ลินิน สร้าง dashboard สำหรับแคมเปญ <ชื่อแบรนด์>"
+
+Upload your Excel + brand info → get a complete repo + GitHub Pages URL.
+

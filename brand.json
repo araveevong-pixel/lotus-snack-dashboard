@@ -1,0 +1,23 @@
+{
+  "campaign_name": "LOTUS Snack 2026",
+  "logo_emoji": "🌿",
+  "tagline": "KOL Influencer Marketing Campaign Dashboard — โลตัสขนมไก่",
+  "platform": "TikTok",
+  "agency": "BBB",
+  "hashtags": "#โลตัสขาไก่ #โลตัสน่องไก่ #โลตัสหนังไก่กรอบ #กรอบอร่อยทุกโมเมนต์",
+  "kpi_target_views": 15000000,
+  "category_label": "สินค้า (Sub-Product)",
+  "tier_label": "Tier",
+  "color_primary": "#00B14F",
+  "color_primary_dark": "#008A3D",
+  "color_secondary": "#7CC576",
+  "color_accents": [
+    "#F77F00",
+    "#E63946",
+    "#7209B7",
+    "#0077B6",
+    "#06A77D"
+  ],
+  "github_user": "araveevong-pixel",
+  "repo_name": "lotus-snack-dashboard"
+}
