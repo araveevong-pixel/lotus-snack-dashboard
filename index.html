@@ -508,11 +508,6 @@
                 <div class="kpi-value positive" id="kpi-er-followers">0%</div>
                 <div class="kpi-subtitle">engagement rate</div>
             </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Total Posts</div>
-                <div class="kpi-value neutral" id="kpi-posts">0</div>
-                <div class="kpi-subtitle">posts published</div>
-            </div>
         </div>
 
         <div class="filter-section">
@@ -524,13 +519,6 @@
                 <button class="tab" data-category="ขาไก่">ขาไก่</button>
             </div>
 
-            <div class="filter-label">Tier</div>
-            <div class="tab-group" id="tier-tabs">
-                <button class="tab active" data-tier="all">ทั้งหมด</button>
-                <button class="tab" data-tier="น่องไก่">น่องไก่</button>
-                <button class="tab" data-tier="หนังไก่">หนังไก่</button>
-                <button class="tab" data-tier="ขาไก่">ขาไก่</button>
-            </div>
         </div>
 
         <div class="table-container">
@@ -544,19 +532,17 @@
                         <tr>
                             <th class="sortable" data-sort="displayName">Display Name</th>
                             <th class="sortable" data-sort="username">Username</th>
-                            <th class="sortable" data-sort="tier">Tier</th>
-                            <th class="sortable" data-sort="category">Category</th>
+                            <th class="sortable" data-sort="category">สินค้า</th>
                             <th class="sortable" data-sort="followers">Followers</th>
                             <th class="sortable" data-sort="views">Views</th>
                             <th class="sortable" data-sort="likes">Likes</th>
                             <th class="sortable" data-sort="shares">Shares</th>
                             <th class="sortable" data-sort="comments">Comments</th>
                             <th class="sortable" data-sort="saves">Saves</th>
-                            <th class="sortable" data-sort="posts">Posts</th>
                             <th class="sortable" data-sort="er">ER %</th>
                             <th class="sortable" data-sort="budget">Budget</th>
                             <th>Link</th>
-                            <th class="sortable" data-sort="posted">Status</th>
+                            <th class="sortable" data-sort="status">Status</th>
                         </tr>
                     </thead>
                     <tbody id="kol-tbody"></tbody>
@@ -568,10 +554,6 @@
             <div class="chart-card">
                 <div class="chart-title">สินค้า (Sub-Product) Distribution</div>
                 <canvas id="categoryChart"></canvas>
-            </div>
-            <div class="chart-card">
-                <div class="chart-title">Tier Distribution</div>
-                <canvas id="tierChart"></canvas>
             </div>
         </div>
 
@@ -621,39 +603,45 @@
     </div>
 
     <script>
-        const CAMPAIGN_KPI_VIEWS = 15000000;
-        const CAMPAIGN_MEDIA_BUDGET = 304250;
-        const CAMPAIGN_ACTUAL_USE_DEFAULT = 0.0;
+        // Per-category KPI targets and budgets — applied when filter active
+        const CATEGORY_CONFIG = {
+            'all':       { target: 15000000, budget: 300000, label: 'ทั้งแคมเปญ' },
+            'ขาไก่':     { target: 3500000,  budget: 75000,  label: 'ขาไก่' },
+            'น่องไก่':   { target: 3500000,  budget: 75000,  label: 'น่องไก่' },
+            'หนังไก่':   { target: 8000000,  budget: 150000, label: 'หนังไก่กรอบ' }
+        };
+
+        const CAMPAIGN_KPI_VIEWS = CATEGORY_CONFIG.all.target;
+        const CAMPAIGN_MEDIA_BUDGET = CATEGORY_CONFIG.all.budget;
+        const CAMPAIGN_ACTUAL_USE_DEFAULT = 0;
         const STORAGE_KEY = 'lotus_snack_dashboard_actual_use';
 
         const CATEGORY_BADGE_MAP = {"หนังไก่": "badge-1", "น่องไก่": "badge-2", "ขาไก่": "badge-3"};
-        const TIER_BADGE_MAP = {"น่องไก่": "badge-1", "หนังไก่": "badge-2", "ขาไก่": "badge-3"};
 
         const KOL_DATA = [
-  { username: 'markc.boardgame', displayName: 'markc.boardgame', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 104900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 12000 },
-  { username: 'minkmories', displayName: 'minkmories', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 363400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000 },
-  { username: 'dairyparty', displayName: 'dairyparty', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 68700, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 10000 },
-  { username: 'narongrit11414', displayName: 'narongrit', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 85700, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 16000 },
-  { username: 'tanawatpankaew', displayName: 'tanawatpankaew', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 77400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 5000 },
-  { username: 'fford._.mini', displayName: 'fford._.mini', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 23200, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 7000 },
-  { username: 'ledswu', displayName: 'ledswu', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 138400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 17000 },
-  { username: 'debuam012', displayName: 'debuam012', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 20600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 4500 },
-  { username: 'saruanly', displayName: 'saruanly', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 6639, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 7250 },
-  { username: 'tuajeed.office', displayName: 'tuajeed.office', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 27000, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 14500 },
-  { username: 'miinez_', displayName: 'miinez_', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 39100, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000 },
-  { username: 'gonsalosol', displayName: 'gonsalosol', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 372900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 26000 },
-  { username: 'sharkwow.ch', displayName: 'sharkwow.ch', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 578300, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 40000 },
-  { username: 'witbenmoreallright', displayName: 'witbenmoreallright', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 1000000, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 35000 },
-  { username: 'gampamao', displayName: 'ไอ้แก้มขี้เมา', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 182600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000 },
-  { username: 'tatatomang', displayName: 'tatatomang', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 186900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000 },
-  { username: 'taloncamp_sg', displayName: 'ตะลอนแคมภ์', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 257100, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 19000 },
-  { username: 'sarun_kritaterakul', displayName: 'sarun_kritaterakul', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 30600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 9000 },
-  { username: 'nattienote', displayName: 'nattienote', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 274900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 22000 }
-];
+  { username: 'markc.boardgame', displayName: 'markc.boardgame', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 104900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 12000, status: 'Draft 1' },
+  { username: 'minkmories', displayName: 'minkmories', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 363400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000, status: 'Draft 2' },
+  { username: 'dairyparty', displayName: 'dairyparty', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 68700, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 10000, status: 'Draft 1' },
+  { username: 'narongrit11414', displayName: 'narongrit', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 85700, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 16000, status: 'Draft 1' },
+  { username: 'tanawatpankaew', displayName: 'tanawatpankaew', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 77400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 5000, status: 'Draft 1' },
+  { username: 'fford._.mini', displayName: 'fford._.mini', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 23200, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 7000, status: 'ส่งวันที่ 7' },
+  { username: 'ledswu', displayName: 'ledswu', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 138400, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 17000, status: 'Draft 2' },
+  { username: 'debuam012', displayName: 'debuam012', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 20600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 4500, status: 'Draft 1' },
+  { username: 'saruanly', displayName: 'saruanly', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 6639, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 7250, status: 'Draft 2' },
+  { username: 'tuajeed.office', displayName: 'tuajeed.office', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 27000, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 14500, status: 'ส่งวันที่ 10' },
+  { username: 'miinez_', displayName: 'miinez_', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 39100, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000, status: 'ส่งวันที่ 5' },
+  { username: 'gonsalosol', displayName: 'gonsalosol', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 372900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 26000, status: 'ส่งวันที่ 7' },
+  { username: 'sharkwow.ch', displayName: 'sharkwow.ch', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 578300, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 40000, status: 'Draft 2' },
+  { username: 'witbenmoreallright', displayName: 'witbenmoreallright', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 1000000, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 35000, status: 'Draft 2' },
+  { username: 'gampamao', displayName: 'ไอ้แก้มขี้เมา', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 182600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000, status: 'Draft 2' },
+  { username: 'tatatomang', displayName: 'tatatomang', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 186900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 15000, status: 'Draft 1' },
+  { username: 'taloncamp_sg', displayName: 'ตะลอนแคมภ์', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 257100, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 19000, status: 'Draft 1' },
+  { username: 'sarun_kritaterakul', displayName: 'sarun_kritaterakul', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 30600, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 9000, status: 'Draft 2' },
+  { username: 'nattienote', displayName: 'nattienote', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 274900, views: 0, likes: 0, shares: 0, comments: 0, saves: 0, posts: 0, kpi_views: 0, posted: false, link: '', budget: 22000, status: 'ส่งวันที่ 5' }
+        ];
 
         let kolData = [...KOL_DATA];
         let currentCategoryFilter = 'all';
-        let currentTierFilter = 'all';
         let currentSort = null;
         let sortDirection = 'asc';
         let CAMPAIGN_ACTUAL_USE = parseFloat(localStorage.getItem(STORAGE_KEY)) || CAMPAIGN_ACTUAL_USE_DEFAULT;
@@ -679,18 +667,6 @@
                 });
             });
 
-            document.querySelectorAll('#tier-tabs .tab').forEach(tab => {
-                tab.addEventListener('click', function() {
-                    document.querySelectorAll('#tier-tabs .tab').forEach(t => t.classList.remove('active'));
-                    this.classList.add('active');
-                    currentTierFilter = this.dataset.tier;
-                    renderKOLTable();
-                    updateKPIs();
-                    updateCharts();
-                    updateRankings();
-                });
-            });
-
             document.querySelectorAll('th.sortable').forEach(th => {
                 th.addEventListener('click', function() {
                     const column = this.dataset.sort;
@@ -707,9 +683,7 @@
 
         function getFilteredData() {
             let filtered = kolData.filter(kol => {
-                let categoryMatch = currentCategoryFilter === 'all' || kol.category === currentCategoryFilter;
-                let tierMatch = currentTierFilter === 'all' || kol.tier === currentTierFilter;
-                return categoryMatch && tierMatch;
+                return currentCategoryFilter === 'all' || kol.category === currentCategoryFilter;
             });
 
             if (currentSort) {
@@ -737,7 +711,7 @@
             const data = dataSet || getFilteredData();
             const stats = {
                 totalViews: 0, totalLikes: 0, totalShares: 0, totalComments: 0,
-                totalSaves: 0, totalFollowers: 0, totalEngagement: 0, totalPosts: 0,
+                totalSaves: 0, totalFollowers: 0, totalEngagement: 0,
                 creators: data.length
             };
             data.forEach(kol => {
@@ -747,23 +721,26 @@
                 stats.totalComments += kol.comments || 0;
                 stats.totalSaves += kol.saves || 0;
                 stats.totalFollowers += kol.followers || 0;
-                stats.totalPosts += kol.posts || 0;
             });
             stats.totalEngagement = stats.totalLikes + stats.totalShares + stats.totalComments + stats.totalSaves;
             stats.avgEngagement = stats.creators > 0 ? Math.round(stats.totalEngagement / stats.creators) : 0;
             stats.erViews = stats.totalViews > 0 ? ((stats.totalEngagement / stats.totalViews) * 100).toFixed(2) : 0;
             stats.erFollowers = stats.totalFollowers > 0 ? ((stats.totalEngagement / stats.totalFollowers) * 100).toFixed(2) : 0;
-            stats.achievePct = ((stats.totalViews / CAMPAIGN_KPI_VIEWS) * 100).toFixed(2);
-            stats.budgetPct = ((CAMPAIGN_ACTUAL_USE / CAMPAIGN_MEDIA_BUDGET) * 100).toFixed(2);
+            // Use category-specific target/budget when filter active
+            const cfg = CATEGORY_CONFIG[currentCategoryFilter] || CATEGORY_CONFIG.all;
+            stats.activeTarget = cfg.target;
+            stats.activeBudget = cfg.budget;
+            stats.achievePct = ((stats.totalViews / cfg.target) * 100).toFixed(2);
+            stats.budgetPct = ((CAMPAIGN_ACTUAL_USE / cfg.budget) * 100).toFixed(2);
             return stats;
         }
 
         function updateKPIs() {
             const stats = calculateKPIs();
-            document.getElementById('kpi-target').textContent = formatNumber(CAMPAIGN_KPI_VIEWS);
+            document.getElementById('kpi-target').textContent = formatNumber(stats.activeTarget);
             document.getElementById('kpi-actual-views').textContent = formatNumber(stats.totalViews);
             document.getElementById('kpi-achieve-pct').textContent = stats.achievePct + '%';
-            document.getElementById('kpi-budget').textContent = formatNumber(CAMPAIGN_MEDIA_BUDGET);
+            document.getElementById('kpi-budget').textContent = formatNumber(stats.activeBudget);
             document.getElementById('kpi-actual-use').textContent = formatNumber(CAMPAIGN_ACTUAL_USE);
             document.getElementById('kpi-budget-pct').textContent = stats.budgetPct + '%';
             document.getElementById('kpi-creators').textContent = formatNumber(stats.creators);
@@ -776,8 +753,18 @@
             document.getElementById('kpi-avg-engagement').textContent = formatNumber(stats.avgEngagement);
             document.getElementById('kpi-er-views').textContent = stats.erViews + '%';
             document.getElementById('kpi-er-followers').textContent = stats.erFollowers + '%';
-            document.getElementById('kpi-posts').textContent = formatNumber(stats.totalPosts);
             document.getElementById('table-count').textContent = formatNumber(stats.creators);
+        }
+
+        function statusBadgeClass(status) {
+            if (!status) return 'badge-secondary';
+            const s = status.toLowerCase();
+            if (s.includes('posted')) return 'badge-5';      // green
+            if (s.includes('draft 3')) return 'badge-1';      // orange (review)
+            if (s.includes('draft 2')) return 'badge-1';      // orange
+            if (s.includes('draft 1')) return 'badge-3';      // purple (in progress)
+            if (s.includes('ส่งวันที่')) return 'badge-secondary'; // gray (waiting to send)
+            return 'badge-secondary';
         }
 
         function renderKOLTable() {
@@ -787,11 +774,9 @@
             filtered.forEach(kol => {
                 const engagement = (kol.likes||0)+(kol.shares||0)+(kol.comments||0)+(kol.saves||0);
                 const er = kol.views > 0 ? ((engagement / kol.views) * 100).toFixed(2) : 0;
-                const tierBadge = TIER_BADGE_MAP[kol.tier] || 'badge-primary';
                 const catBadge = CATEGORY_BADGE_MAP[kol.category] || 'badge-secondary';
-                const status = kol.posted
-                    ? '<span class="status-check">✓</span>'
-                    : '<span class="status-check" style="opacity:0.3;">○</span>';
+                const statusText = kol.status || 'รอส่ง';
+                const statusBadge = statusBadgeClass(statusText);
                 const linkCell = kol.link
                     ? '<a href="'+kol.link+'" target="_blank" rel="noopener" style="color:var(--primary);text-decoration:none;font-weight:600;">ดูโพสต์</a>'
                     : '-';
@@ -799,7 +784,6 @@
                 row.innerHTML = `
                     <td>${escapeHtml(kol.displayName)}</td>
                     <td>${escapeHtml(kol.username)}</td>
-                    <td><span class="badge ${tierBadge}">${escapeHtml(kol.tier)}</span></td>
                     <td><span class="badge ${catBadge}">${escapeHtml(kol.category)}</span></td>
                     <td>${formatNumber(kol.followers)}</td>
                     <td>${formatNumber(kol.views)}</td>
@@ -807,11 +791,10 @@
                     <td>${formatNumber(kol.shares)}</td>
                     <td>${formatNumber(kol.comments)}</td>
                     <td>${formatNumber(kol.saves)}</td>
-                    <td>${kol.posts}</td>
                     <td>${er}%</td>
                     <td>${formatNumber(kol.budget)}</td>
                     <td>${linkCell}</td>
-                    <td>${status}</td>
+                    <td><span class="badge ${statusBadge}">${escapeHtml(statusText)}</span></td>
                 `;
                 tbody.appendChild(row);
             });
@@ -827,28 +810,17 @@
             });
         }
 
-        let categoryChart, tierChart;
+        let categoryChart;
 
         function initCharts() {
             const catLabels = Object.keys(CATEGORY_BADGE_MAP);
             const catColors = catLabels.map(l => getComputedStyle(document.documentElement).getPropertyValue('--' + (CATEGORY_BADGE_MAP[l].replace('badge-','accent-'))).trim() || getComputedStyle(document.documentElement).getPropertyValue('--primary').trim());
-            const tierLabels = Object.keys(TIER_BADGE_MAP);
-            const tierColors = tierLabels.map(l => getComputedStyle(document.documentElement).getPropertyValue('--' + (TIER_BADGE_MAP[l].replace('badge-','accent-'))).trim() || getComputedStyle(document.documentElement).getPropertyValue('--primary').trim());
 
             categoryChart = new Chart(document.getElementById('categoryChart').getContext('2d'), {
                 type: 'doughnut',
                 data: {
                     labels: catLabels,
                     datasets: [{ data: catLabels.map(_ => 0), backgroundColor: catColors, borderColor: '#FFF', borderWidth: 2 }]
-                },
-                options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { font: { family: "'Sarabun', sans-serif", size: 12 }, padding: 15 } } } }
-            });
-
-            tierChart = new Chart(document.getElementById('tierChart').getContext('2d'), {
-                type: 'doughnut',
-                data: {
-                    labels: tierLabels,
-                    datasets: [{ data: tierLabels.map(_ => 0), backgroundColor: tierColors, borderColor: '#FFF', borderWidth: 2 }]
                 },
                 options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { font: { family: "'Sarabun', sans-serif", size: 12 }, padding: 15 } } } }
             });
@@ -861,9 +833,6 @@
             const catLabels = Object.keys(CATEGORY_BADGE_MAP);
             categoryChart.data.datasets[0].data = catLabels.map(l => data.filter(k => k.category === l).length);
             categoryChart.update();
-            const tierLabels = Object.keys(TIER_BADGE_MAP);
-            tierChart.data.datasets[0].data = tierLabels.map(l => data.filter(k => k.tier === l).length);
-            tierChart.update();
         }
 
         function updateRankings() {
