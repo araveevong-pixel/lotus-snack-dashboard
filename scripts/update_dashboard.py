@@ -168,7 +168,7 @@ KOL_METADATA = {
 }
 
 KOL_LINKS = {
-    "markc.boardgame": "",
+    "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
     "minkmories": "",
     "dairyparty": "",
     "narongrit11414": "",
@@ -176,21 +176,45 @@ KOL_LINKS = {
     "fford._.mini": "",
     "ledswu": "",
     "debuam012": "",
-    "saruanly": "",
+    "saruanly": "https://vt.tiktok.com/ZS9a2kjxW/",
     "tuajeed.office": "",
     "miinez_": "",
     "gonsalosol": "",
     "sharkwow.ch": "",
-    "witbenmoreallright": "",
-    "gampamao": "",
+    "witbenmoreallright": "https://vt.tiktok.com/ZS9aABnfe/",
+    "gampamao": "https://vt.tiktok.com/ZS9aSw6mn/",
     "tatatomang": "",
     "taloncamp_sg": "",
-    "sarun_kritaterakul": "",
+    "sarun_kritaterakul": "https://vt.tiktok.com/ZS9aBHdoY/",
     "nattienote": ""
 }
 
 # KOLs ที่ยังไม่โพสต์ — ลบชื่อออกเมื่อโพสต์แล้ว
-NOT_POSTED_KOLS = set(["markc.boardgame", "minkmories", "dairyparty", "narongrit11414", "tanawatpankaew", "fford._.mini", "ledswu", "debuam012", "saruanly", "tuajeed.office", "miinez_", "gonsalosol", "sharkwow.ch", "witbenmoreallright", "gampamao", "tatatomang", "taloncamp_sg", "sarun_kritaterakul", "nattienote"])
+NOT_POSTED_KOLS = set(["minkmories", "dairyparty", "narongrit11414", "tanawatpankaew", "fford._.mini", "ledswu", "debuam012", "tuajeed.office", "miinez_", "gonsalosol", "sharkwow.ch", "tatatomang", "taloncamp_sg", "nattienote"])
+
+KOL_STATUS = {
+    "markc.boardgame": "Posted",
+    "minkmories": "Draft 2",
+    "dairyparty": "Draft 1",
+    "narongrit11414": "Draft 1",
+    "tanawatpankaew": "Draft 1",
+    "fford._.mini": "ส่งวันที่ 7",
+    "ledswu": "Draft 2",
+    "debuam012": "Draft 1",
+    "saruanly": "Posted",
+    "tuajeed.office": "ส่งวันที่ 10",
+    "miinez_": "ส่งวันที่ 5",
+    "gonsalosol": "ส่งวันที่ 7",
+    "sharkwow.ch": "Draft 2",
+    "witbenmoreallright": "Posted",
+    "gampamao": "Posted",
+    "tatatomang": "Draft 1",
+    "taloncamp_sg": "Draft 1",
+    "sarun_kritaterakul": "Posted",
+    "nattienote": "ส่งวันที่ 5",
+}
+
+
 
 
 def preserve_actual_use(html_content):
@@ -250,6 +274,7 @@ def build_kol_entry(username, scrape_data, link='', existing_data=None):
     posts = 1 if posted else 0
     kpi_views = views
 
+    status = KOL_STATUS.get(username, 'รอส่ง')
     return (
         f"  {{ username: '{js_escape(username)}', displayName: '{js_escape(display_name)}', "
         f"tier: '{js_escape(tier)}', platform: 'TikTok', category: '{js_escape(category)}', "
@@ -258,7 +283,8 @@ def build_kol_entry(username, scrape_data, link='', existing_data=None):
         f"comments: {comments}, saves: {saves}, "
         f"posts: {posts}, kpi_views: {kpi_views}, "
         f"posted: {'true' if posted else 'false'}, "
-        f"link: '{js_escape(link)}', budget: {budget} }}"
+        f"link: '{js_escape(link)}', budget: {budget}, "
+        f"status: '{js_escape(status)}' }}"
     )
 
 
