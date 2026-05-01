@@ -3,6 +3,12 @@ name: Auto Update Dashboard
 on:
   schedule:
     - cron: '*/30 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/tiktok_scraper.py'
+      - '.github/workflows/auto-update.yml'
+      - '.scrape-trigger'
   workflow_dispatch:
     inputs:
       actual_use:
