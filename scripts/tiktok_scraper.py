@@ -154,6 +154,26 @@ def main():
                   f"Saves: {data['saves']:,}")
         else:
             print(f"    Failed to scrape @{username}")
+            # Capture diagnostic info
+            try:
+                head_result = subprocess.run(
+                    ['curl', '-sIL', '-A', 'Mozilla/5.0', '-o', '/dev/null', '-w', '%{url_effective}|%{http_code}', link],
+                    capture_output=True, text=True, timeout=15
+                )
+                resolved = head_result.stdout
+                # Try yt-dlp again with verbose flag, capture full error
+                ytdlp_result = subprocess.run(
+                    ['yt-dlp', '--dump-json', '--no-download', link],
+                    capture_output=True, text=True, timeout=30
+                )
+                results[f'_debug_{username}'] = {
+                    'orig_url': link,
+                    'curl_resolve': resolved[:200],
+                    'ytdlp_stderr': ytdlp_result.stderr[:500],
+                    'ytdlp_returncode': ytdlp_result.returncode,
+                }
+            except Exception as e:
+                results[f'_debug_{username}'] = {'orig_url': link, 'exception': str(e)}
 
         time.sleep(random.uniform(0.5, 1.5))
 
