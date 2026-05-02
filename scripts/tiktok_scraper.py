@@ -47,6 +47,29 @@ KOL_LINKS = {
 }
 
 
+def resolve_tiktok_url(url, timeout=15):
+    """Resolve vt.tiktok.com short link to full https://www.tiktok.com/@user/video/ID URL."""
+    if 'vt.tiktok.com' not in url and '/t/' not in url:
+        return url
+    try:
+        # Use curl to follow redirects (yt-dlp can fail at redirect step)
+        result = subprocess.run(
+            ['curl', '-sIL', '-A', 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0)', url],
+            capture_output=True, text=True, timeout=timeout
+        )
+        # Last "location:" header has the final URL
+        for line in result.stdout.splitlines():
+            line = line.strip()
+            if line.lower().startswith('location:'):
+                final = line.split(':', 1)[1].strip()
+                if '/video/' in final:
+                    return final.split('?')[0]  # strip query string
+        return url
+    except Exception as e:
+        print(f"    URL resolve failed: {e}")
+        return url
+
+
 def scrape_tiktok_video(url, timeout=60):
     """Extract TikTok video metadata using yt-dlp --dump-json."""
     try:
@@ -118,6 +141,12 @@ def main():
 
         print(f"  Scraping @{username}...")
         data = scrape_tiktok_video(link)
+        if not data:
+            # Retry: resolve vt link to full URL and try again
+            full_url = resolve_tiktok_url(link)
+            if full_url != link:
+                print(f"    Retrying with resolved URL: {full_url}")
+                data = scrape_tiktok_video(full_url)
         if data:
             results[username] = data
             print(f"    Views: {data['views']:,} | Likes: {data['likes']:,} | "
