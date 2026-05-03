@@ -1,8 +1,8 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 5208,
-    "likes": 279,
+    "views": 5244,
+    "likes": 280,
     "shares": 2,
     "comments": 2,
     "saves": 10,
@@ -10,8 +10,8 @@
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 39000,
-    "likes": 890,
+    "views": 39400,
+    "likes": 896,
     "shares": 19,
     "comments": 9,
     "saves": 24,
@@ -19,13 +19,13 @@
   },
   "_debug_witbenmoreallright": {
     "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
-    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|200",
+    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
     "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634892988916714772: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how",
     "ytdlp_returncode": 1
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 1734,
+    "views": 1775,
     "likes": 82,
     "shares": 0,
     "comments": 3,
@@ -34,8 +34,8 @@
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
-    "views": 9797,
-    "likes": 335,
+    "views": 9866,
+    "likes": 338,
     "shares": 38,
     "comments": 26,
     "saves": 24,
