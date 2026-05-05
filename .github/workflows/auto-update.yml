@@ -33,7 +33,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install yt-dlp
+          pip install yt-dlp curl-cffi
           yt-dlp --version
 
       - name: Run TikTok Scraper

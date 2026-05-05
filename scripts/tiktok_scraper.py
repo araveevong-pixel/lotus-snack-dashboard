@@ -74,7 +74,7 @@ def scrape_tiktok_video(url, timeout=60):
     """Extract TikTok video metadata using yt-dlp --dump-json."""
     try:
         result = subprocess.run(
-            ['yt-dlp', '--dump-json', '--no-download', '--no-warnings', url],
+            ['yt-dlp', '--dump-json', '--no-download', '--no-warnings', '--impersonate', 'chrome', url],
             capture_output=True, text=True, timeout=timeout
         )
 
@@ -83,7 +83,7 @@ def scrape_tiktok_video(url, timeout=60):
                 print(f"    Age-restricted, retrying with --age-limit 99...")
                 result = subprocess.run(
                     ['yt-dlp', '--dump-json', '--no-download', '--no-warnings',
-                     '--age-limit', '99', url],
+                     '--age-limit', '99', '--impersonate', 'chrome', url],
                     capture_output=True, text=True, timeout=timeout
                 )
 
