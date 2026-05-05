@@ -36,6 +36,19 @@ jobs:
           pip install yt-dlp curl-cffi
           yt-dlp --version
 
+      - name: Setup TikTok cookies (if secret provided)
+        env:
+          TIKTOK_COOKIES: ${{ secrets.TIKTOK_COOKIES }}
+        run: |
+          if [ -n "$TIKTOK_COOKIES" ]; then
+            echo "$TIKTOK_COOKIES" > /tmp/tiktok_cookies.txt
+            echo "✓ Cookies file written ($(wc -l < /tmp/tiktok_cookies.txt) lines)"
+            export TIKTOK_COOKIES_FILE=/tmp/tiktok_cookies.txt
+            echo "TIKTOK_COOKIES_FILE=/tmp/tiktok_cookies.txt" >> $GITHUB_ENV
+          else
+            echo "No TIKTOK_COOKIES secret set — scraper will run without auth"
+          fi
+
       - name: Run TikTok Scraper
         run: python3 scripts/tiktok_scraper.py scrape_results.json
 

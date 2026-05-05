@@ -7,6 +7,7 @@ Usage: python3 scripts/tiktok_scraper.py [output_json]
 """
 
 import json
+import os
 import sys
 import subprocess
 import time
@@ -74,7 +75,8 @@ def scrape_tiktok_video(url, timeout=60):
     """Extract TikTok video metadata using yt-dlp --dump-json."""
     try:
         result = subprocess.run(
-            ['yt-dlp', '--dump-json', '--no-download', '--no-warnings', url],
+            ['yt-dlp', '--dump-json', '--no-download', '--no-warnings'] + 
+            (['--cookies', os.environ['TIKTOK_COOKIES_FILE']] if os.environ.get('TIKTOK_COOKIES_FILE') else []) + [url],
             capture_output=True, text=True, timeout=timeout
         )
 
@@ -83,7 +85,8 @@ def scrape_tiktok_video(url, timeout=60):
                 print(f"    Age-restricted, retrying with --age-limit 99...")
                 result = subprocess.run(
                     ['yt-dlp', '--dump-json', '--no-download', '--no-warnings',
-                     '--age-limit', '99', url],
+                     '--age-limit', '99'] + 
+                    (['--cookies', os.environ['TIKTOK_COOKIES_FILE']] if os.environ.get('TIKTOK_COOKIES_FILE') else []) + [url],
                     capture_output=True, text=True, timeout=timeout
                 )
 
@@ -163,7 +166,8 @@ def main():
                 resolved = head_result.stdout
                 # Try yt-dlp again with verbose flag, capture full error
                 ytdlp_result = subprocess.run(
-                    ['yt-dlp', '--dump-json', '--no-download', link],
+                    ['yt-dlp', '--dump-json', '--no-download'] + 
+                    (['--cookies', os.environ['TIKTOK_COOKIES_FILE']] if os.environ.get('TIKTOK_COOKIES_FILE') else []) + [link],
                     capture_output=True, text=True, timeout=30
                 )
                 results[f'_debug_{username}'] = {
