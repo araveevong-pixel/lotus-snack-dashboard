@@ -27,13 +27,13 @@ MANUAL_OVERRIDE = {
 # ============================================================
 KOL_LINKS = {
     "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
-    "minkmories": "",
+    "minkmories": "https://vt.tiktok.com/ZS9bLxokr/",
     "dairyparty": "",
     "narongrit11414": "",
     "tanawatpankaew": "",
-    "fford._.mini": "",
+    "fford._.mini": "https://vt.tiktok.com/ZS9bMV5M5/",
     "ledswu": "",
-    "debuam012": "",
+    "debuam012": "https://vt.tiktok.com/ZS9bFpyNh/",
     "saruanly": "https://vt.tiktok.com/ZS9a2kjxW/",
     "tuajeed.office": "",
     "miinez_": "",
@@ -42,7 +42,7 @@ KOL_LINKS = {
     "witbenmoreallright": "https://vt.tiktok.com/ZS9aABnfe/",
     "gampamao": "https://vt.tiktok.com/ZS9aSw6mn/",
     "tatatomang": "",
-    "taloncamp_sg": "",
+    "taloncamp_sg": "https://vt.tiktok.com/ZS9bmgMM2/",
     "sarun_kritaterakul": "https://vt.tiktok.com/ZS9aBHdoY/",
     "nattienote": ""
 }
