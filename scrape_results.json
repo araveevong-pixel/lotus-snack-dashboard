@@ -1,7 +1,7 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 6253,
+    "views": 6342,
     "likes": 323,
     "shares": 2,
     "comments": 3,
@@ -9,8 +9,8 @@
     "followers": 0
   },
   "minkmories": {
-    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786",
-    "views": 2033,
+    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
+    "views": 2049,
     "likes": 97,
     "shares": 10,
     "comments": 4,
@@ -19,38 +19,44 @@
   },
   "fford._.mini": {
     "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
-    "views": 750,
+    "views": 754,
     "likes": 28,
     "shares": 5,
     "comments": 1,
     "saves": 1,
     "followers": 0
   },
-  "_debug_debuam012": {
-    "orig_url": "https://vt.tiktok.com/ZS9bFpyNh/",
-    "curl_resolve": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7636730773118274817: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "debuam012": {
+    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
+    "views": 1683,
+    "likes": 70,
+    "shares": 9,
+    "comments": 10,
+    "saves": 5,
+    "followers": 0
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 50400,
-    "likes": 1085,
+    "views": 50500,
+    "likes": 1086,
     "shares": 28,
     "comments": 12,
     "saves": 25,
     "followers": 0
   },
-  "_debug_witbenmoreallright": {
-    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
-    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
-    "ytdlp_returncode": 0
+  "witbenmoreallright": {
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
+    "views": 4974,
+    "likes": 228,
+    "shares": 5,
+    "comments": 16,
+    "saves": 8,
+    "followers": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 5043,
-    "likes": 153,
+    "views": 5318,
+    "likes": 157,
     "shares": 1,
     "comments": 3,
     "saves": 9,
@@ -58,15 +64,15 @@
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 4215,
-    "likes": 562,
+    "views": 4272,
+    "likes": 569,
     "shares": 5,
     "comments": 21,
     "saves": 5,
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906",
+    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 14200,
     "likes": 427,
     "shares": 56,
