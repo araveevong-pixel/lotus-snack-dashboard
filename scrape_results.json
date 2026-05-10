@@ -1,7 +1,7 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 6027,
+    "views": 6049,
     "likes": 320,
     "shares": 2,
     "comments": 2,
@@ -10,16 +10,16 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 1968,
-    "likes": 94,
+    "views": 1989,
+    "likes": 95,
     "shares": 10,
     "comments": 4,
     "saves": 8,
     "followers": 0
   },
   "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722",
-    "views": 747,
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "views": 748,
     "likes": 28,
     "shares": 5,
     "comments": 1,
@@ -28,32 +28,35 @@
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 1581,
-    "likes": 66,
+    "views": 1614,
+    "likes": 67,
     "shares": 9,
     "comments": 10,
-    "saves": 4,
+    "saves": 5,
     "followers": 0
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 50100,
-    "likes": 1079,
+    "views": 50200,
+    "likes": 1081,
     "shares": 28,
-    "comments": 11,
+    "comments": 12,
     "saves": 25,
     "followers": 0
   },
-  "_debug_witbenmoreallright": {
-    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
-    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
-    "ytdlp_returncode": 0
+  "witbenmoreallright": {
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772",
+    "views": 4849,
+    "likes": 225,
+    "shares": 5,
+    "comments": 16,
+    "saves": 8,
+    "followers": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 4096,
-    "likes": 140,
+    "views": 4423,
+    "likes": 143,
     "shares": 1,
     "comments": 3,
     "saves": 9,
@@ -61,17 +64,17 @@
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 3711,
-    "likes": 504,
-    "shares": 3,
-    "comments": 19,
+    "views": 3949,
+    "likes": 530,
+    "shares": 5,
+    "comments": 20,
     "saves": 5,
     "followers": 0
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 14100,
-    "likes": 421,
+    "likes": 422,
     "shares": 56,
     "comments": 26,
     "saves": 33,
