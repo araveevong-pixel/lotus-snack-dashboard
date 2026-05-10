@@ -1,7 +1,7 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 6475,
+    "views": 6479,
     "likes": 324,
     "shares": 2,
     "comments": 3,
@@ -10,25 +10,22 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 2102,
+    "views": 2103,
     "likes": 98,
     "shares": 10,
     "comments": 4,
     "saves": 8,
     "followers": 0
   },
-  "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
-    "views": 756,
-    "likes": 28,
-    "shares": 5,
-    "comments": 1,
-    "saves": 1,
-    "followers": 0
+  "_debug_fford._.mini": {
+    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
+    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|403",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
+    "ytdlp_returncode": 0
   },
   "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 1717,
+    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817",
+    "views": 1719,
     "likes": 70,
     "shares": 9,
     "comments": 10,
@@ -46,7 +43,7 @@
   },
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 5083,
+    "views": 5088,
     "likes": 231,
     "shares": 5,
     "comments": 16,
@@ -55,7 +52,7 @@
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 5895,
+    "views": 5915,
     "likes": 162,
     "shares": 1,
     "comments": 5,
@@ -64,8 +61,8 @@
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 4423,
-    "likes": 591,
+    "views": 4431,
+    "likes": 593,
     "shares": 5,
     "comments": 21,
     "saves": 5,
