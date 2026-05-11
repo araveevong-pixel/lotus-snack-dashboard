@@ -170,15 +170,15 @@ KOL_METADATA = {
 KOL_LINKS = {
     "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
     "minkmories": "https://vt.tiktok.com/ZS9bLxokr/",
-    "dairyparty": "",
+    "dairyparty": "https://vt.tiktok.com/ZS9nKRULc/",
     "narongrit11414": "",
     "tanawatpankaew": "",
     "fford._.mini": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "ledswu": "",
+    "ledswu": "https://vt.tiktok.com/ZS9G9rGKX/",
     "debuam012": "https://vt.tiktok.com/ZS9bFpyNh/",
     "saruanly": "https://vt.tiktok.com/ZS9a2kjxW/",
     "tuajeed.office": "",
-    "miinez_": "",
+    "miinez_": "https://vt.tiktok.com/ZS9tk5kKo/",
     "gonsalosol": "",
     "sharkwow.ch": "",
     "witbenmoreallright": "https://vt.tiktok.com/ZS9aABnfe/",
@@ -186,32 +186,32 @@ KOL_LINKS = {
     "tatatomang": "",
     "taloncamp_sg": "https://vt.tiktok.com/ZS9bmgMM2/",
     "sarun_kritaterakul": "https://vt.tiktok.com/ZS9aBHdoY/",
-    "nattienote": ""
+    "nattienote": "https://vt.tiktok.com/ZS9vSfoWE/"
 }
 
 # KOLs ที่ยังไม่โพสต์ — ลบชื่อออกเมื่อโพสต์แล้ว
-NOT_POSTED_KOLS = set(["dairyparty", "narongrit11414", "tanawatpankaew", "ledswu", "tuajeed.office", "miinez_", "gonsalosol", "sharkwow.ch", "tatatomang", "nattienote"])
+NOT_POSTED_KOLS = set(["narongrit11414", "tanawatpankaew", "tuajeed.office", "gonsalosol", "sharkwow.ch", "tatatomang"])
 
 KOL_STATUS = {
     "markc.boardgame": "Posted",
     "minkmories": "Posted",
-    "dairyparty": "รอถ่ายเพิ่ม",
+    "dairyparty": "Posted",
     "narongrit11414": "Draft 1",
-    "tanawatpankaew": "รอถ่ายใหม่",
+    "tanawatpankaew": "OK",
     "fford._.mini": "Posted",
-    "ledswu": "Draft 3",
+    "ledswu": "Posted",
     "debuam012": "Posted",
     "saruanly": "Posted",
-    "tuajeed.office": "ส่งวันที่ 10",
-    "miinez_": "Draft 2",
-    "gonsalosol": "Draft 1",
+    "tuajeed.office": "ส่งวันที่ 14",
+    "miinez_": "Posted",
+    "gonsalosol": "Draft 2",
     "sharkwow.ch": "Draft 4",
     "witbenmoreallright": "Posted",
     "gampamao": "Posted",
     "tatatomang": "Draft 1",
     "taloncamp_sg": "Posted",
     "sarun_kritaterakul": "Posted",
-    "nattienote": "Draft 2",
+    "nattienote": "Posted",
 }
 
 
