@@ -1,8 +1,8 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 6900,
-    "likes": 327,
+    "views": 7065,
+    "likes": 331,
     "shares": 2,
     "comments": 3,
     "saves": 12,
@@ -10,7 +10,7 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 2260,
+    "views": 2304,
     "likes": 101,
     "shares": 10,
     "comments": 4,
@@ -19,16 +19,16 @@
   },
   "dairyparty": {
     "url": "https://www.tiktok.com/@dairyparty/video/7637713170424974599?_r=1&_t=ZS-96CzpprrTnj",
-    "views": 39800,
-    "likes": 3147,
-    "shares": 705,
+    "views": 39900,
+    "likes": 3159,
+    "shares": 710,
     "comments": 26,
     "saves": 221,
     "followers": 0
   },
   "fford._.mini": {
     "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
-    "views": 766,
+    "views": 768,
     "likes": 28,
     "shares": 5,
     "comments": 1,
@@ -37,16 +37,16 @@
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 48000,
-    "likes": 3379,
+    "views": 48400,
+    "likes": 3397,
     "shares": 244,
     "comments": 17,
-    "saves": 99,
+    "saves": 101,
     "followers": 0
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 1874,
+    "views": 1884,
     "likes": 73,
     "shares": 9,
     "comments": 10,
@@ -55,7 +55,7 @@
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 51400,
+    "views": 51500,
     "likes": 1099,
     "shares": 29,
     "comments": 12,
@@ -64,23 +64,26 @@
   },
   "miinez_": {
     "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
-    "views": 2191,
-    "likes": 210,
-    "shares": 15,
+    "views": 2262,
+    "likes": 219,
+    "shares": 16,
     "comments": 12,
     "saves": 13,
     "followers": 0
   },
-  "_debug_witbenmoreallright": {
-    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
-    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634892988916714772: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "witbenmoreallright": {
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
+    "views": 5381,
+    "likes": 243,
+    "shares": 6,
+    "comments": 16,
+    "saves": 9,
+    "followers": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 6550,
-    "likes": 170,
+    "views": 6611,
+    "likes": 173,
     "shares": 1,
     "comments": 5,
     "saves": 9,
@@ -88,8 +91,8 @@
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 5082,
-    "likes": 680,
+    "views": 5232,
+    "likes": 697,
     "shares": 5,
     "comments": 22,
     "saves": 5,
@@ -98,7 +101,7 @@
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 14600,
-    "likes": 437,
+    "likes": 438,
     "shares": 57,
     "comments": 24,
     "saves": 36,
@@ -106,8 +109,8 @@
   },
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
-    "views": 5935,
-    "likes": 437,
+    "views": 6005,
+    "likes": 449,
     "shares": 27,
     "comments": 10,
     "saves": 15,
