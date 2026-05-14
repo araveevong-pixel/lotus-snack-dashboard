@@ -171,8 +171,8 @@ KOL_LINKS = {
     "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
     "minkmories": "https://vt.tiktok.com/ZS9bLxokr/",
     "dairyparty": "https://vt.tiktok.com/ZS9nKRULc/",
-    "narongrit11414": "",
-    "tanawatpankaew": "",
+    "narongrit11414": "https://vt.tiktok.com/ZS9EsqqWw/",
+    "tanawatpankaew": "https://vt.tiktok.com/ZS9KqJggx/",
     "fford._.mini": "https://vt.tiktok.com/ZS9bMV5M5/",
     "ledswu": "https://vt.tiktok.com/ZS9G9rGKX/",
     "debuam012": "https://vt.tiktok.com/ZS9bFpyNh/",
@@ -180,24 +180,24 @@ KOL_LINKS = {
     "tuajeed.office": "",
     "miinez_": "https://vt.tiktok.com/ZS9tk5kKo/",
     "gonsalosol": "",
-    "sharkwow.ch": "",
+    "sharkwow.ch": "https://vt.tiktok.com/ZS9Kq6Fbf/",
     "witbenmoreallright": "https://vt.tiktok.com/ZS9aABnfe/",
     "gampamao": "https://vt.tiktok.com/ZS9aSw6mn/",
-    "tatatomang": "",
+    "tatatomang": "https://vt.tiktok.com/ZS9KbaK3n/",
     "taloncamp_sg": "https://vt.tiktok.com/ZS9bmgMM2/",
     "sarun_kritaterakul": "https://vt.tiktok.com/ZS9aBHdoY/",
     "nattienote": "https://vt.tiktok.com/ZS9vSfoWE/"
 }
 
 # KOLs ที่ยังไม่โพสต์ — ลบชื่อออกเมื่อโพสต์แล้ว
-NOT_POSTED_KOLS = set(["narongrit11414", "tanawatpankaew", "tuajeed.office", "gonsalosol", "sharkwow.ch", "tatatomang"])
+NOT_POSTED_KOLS = set(["tuajeed.office", "gonsalosol"])
 
 KOL_STATUS = {
     "markc.boardgame": "Posted",
     "minkmories": "Posted",
     "dairyparty": "Posted",
-    "narongrit11414": "Draft 1",
-    "tanawatpankaew": "OK",
+    "narongrit11414": "Posted",
+    "tanawatpankaew": "Posted",
     "fford._.mini": "Posted",
     "ledswu": "Posted",
     "debuam012": "Posted",
@@ -205,10 +205,10 @@ KOL_STATUS = {
     "tuajeed.office": "ส่งวันที่ 14",
     "miinez_": "Posted",
     "gonsalosol": "Draft 2",
-    "sharkwow.ch": "Draft 4",
+    "sharkwow.ch": "Posted",
     "witbenmoreallright": "Posted",
     "gampamao": "Posted",
-    "tatatomang": "Draft 1",
+    "tatatomang": "Posted",
     "taloncamp_sg": "Posted",
     "sarun_kritaterakul": "Posted",
     "nattienote": "Posted",
