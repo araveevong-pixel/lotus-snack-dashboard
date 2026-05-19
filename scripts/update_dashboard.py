@@ -177,9 +177,9 @@ KOL_LINKS = {
     "ledswu": "https://vt.tiktok.com/ZS9G9rGKX/",
     "debuam012": "https://vt.tiktok.com/ZS9bFpyNh/",
     "saruanly": "https://vt.tiktok.com/ZS9a2kjxW/",
-    "tuajeed.office": "",
+    "tuajeed.office": "https://vt.tiktok.com/ZSxjfekwg/",
     "miinez_": "https://vt.tiktok.com/ZS9tk5kKo/",
-    "gonsalosol": "",
+    "gonsalosol": "https://vt.tiktok.com/ZSx8JCwkq/",
     "sharkwow.ch": "https://vt.tiktok.com/ZS9Kq6Fbf/",
     "witbenmoreallright": "https://vt.tiktok.com/ZS9aABnfe/",
     "gampamao": "https://vt.tiktok.com/ZS9aSw6mn/",
@@ -190,7 +190,7 @@ KOL_LINKS = {
 }
 
 # KOLs ที่ยังไม่โพสต์ — ลบชื่อออกเมื่อโพสต์แล้ว
-NOT_POSTED_KOLS = set(["tuajeed.office", "gonsalosol"])
+NOT_POSTED_KOLS = set([])
 
 KOL_STATUS = {
     "markc.boardgame": "Posted",
@@ -202,9 +202,9 @@ KOL_STATUS = {
     "ledswu": "Posted",
     "debuam012": "Posted",
     "saruanly": "Posted",
-    "tuajeed.office": "ส่งวันที่ 14",
+    "tuajeed.office": "Posted",
     "miinez_": "Posted",
-    "gonsalosol": "Draft 2",
+    "gonsalosol": "Posted",
     "sharkwow.ch": "Posted",
     "witbenmoreallright": "Posted",
     "gampamao": "Posted",
