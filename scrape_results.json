@@ -1,7 +1,7 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 312700,
+    "views": 316600,
     "likes": 524,
     "shares": 7,
     "comments": 3,
@@ -10,50 +10,44 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 429800,
-    "likes": 363,
-    "shares": 21,
+    "views": 431400,
+    "likes": 365,
+    "shares": 22,
     "comments": 5,
-    "saves": 29,
+    "saves": 30,
     "followers": 0
   },
-  "dairyparty": {
-    "url": "https://www.tiktok.com/@dairyparty/video/7637713170424974599?_r=1&_t=ZS-96CzpprrTnj",
-    "views": 46700,
-    "likes": 3726,
-    "shares": 901,
-    "comments": 28,
-    "saves": 284,
-    "followers": 0
-  },
-  "narongrit11414": {
-    "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
-    "views": 59200,
-    "likes": 89,
-    "shares": 0,
-    "comments": 1,
-    "saves": 4,
-    "followers": 0
-  },
-  "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
-    "views": 80200,
-    "likes": 230,
-    "shares": 150,
-    "comments": 8,
-    "saves": 3,
-    "followers": 0
-  },
-  "_debug_fford._.mini": {
-    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7636740621125864722: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+  "_debug_dairyparty": {
+    "orig_url": "https://vt.tiktok.com/ZS9nKRULc/",
+    "curl_resolve": "https://www.tiktok.com/@dairyparty/video/7637713170424974599?_r=1&_t=ZS-96CzpprrTnj|403",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7637713170424974599: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
+  },
+  "_debug_narongrit11414": {
+    "orig_url": "https://vt.tiktok.com/ZS9EsqqWw/",
+    "curl_resolve": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV|403",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7639118516175588628: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
+  },
+  "_debug_tanawatpankaew": {
+    "orig_url": "https://vt.tiktok.com/ZS9KqJggx/",
+    "curl_resolve": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg|403",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
+    "ytdlp_returncode": 0
+  },
+  "fford._.mini": {
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "views": 469800,
+    "likes": 178,
+    "shares": 6,
+    "comments": 2,
+    "saves": 22,
+    "followers": 0
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 92300,
-    "likes": 4177,
+    "views": 93200,
+    "likes": 4186,
     "shares": 262,
     "comments": 17,
     "saves": 121,
@@ -61,7 +55,7 @@
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 179800,
+    "views": 180800,
     "likes": 145,
     "shares": 57,
     "comments": 10,
@@ -70,8 +64,8 @@
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 133900,
-    "likes": 1208,
+    "views": 134400,
+    "likes": 1209,
     "shares": 30,
     "comments": 11,
     "saves": 30,
@@ -80,16 +74,16 @@
   "tuajeed.office": {
     "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
     "views": 1000000,
-    "likes": 273,
+    "likes": 278,
     "shares": 6,
     "comments": 1,
-    "saves": 36,
+    "saves": 38,
     "followers": 0
   },
   "miinez_": {
     "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
-    "views": 46000,
-    "likes": 1159,
+    "views": 46400,
+    "likes": 1163,
     "shares": 31,
     "comments": 12,
     "saves": 56,
@@ -97,17 +91,17 @@
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 107000,
-    "likes": 3197,
-    "shares": 171,
+    "views": 111500,
+    "likes": 3295,
+    "shares": 176,
     "comments": 30,
-    "saves": 107,
+    "saves": 110,
     "followers": 0
   },
   "sharkwow.ch": {
     "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
-    "views": 776600,
-    "likes": 682,
+    "views": 798800,
+    "likes": 700,
     "shares": 34,
     "comments": 5,
     "saves": 29,
@@ -115,8 +109,8 @@
   },
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 75800,
-    "likes": 327,
+    "views": 76600,
+    "likes": 328,
     "shares": 6,
     "comments": 16,
     "saves": 15,
@@ -124,7 +118,7 @@
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
-    "views": 42200,
+    "views": 42600,
     "likes": 241,
     "shares": 1,
     "comments": 5,
@@ -132,9 +126,9 @@
     "followers": 0
   },
   "tatatomang": {
-    "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381",
-    "views": 7424,
-    "likes": 174,
+    "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN",
+    "views": 7520,
+    "likes": 175,
     "shares": 2,
     "comments": 19,
     "saves": 4,
@@ -142,29 +136,26 @@
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 780300,
-    "likes": 1416,
+    "views": 792800,
+    "likes": 1432,
     "shares": 57,
     "comments": 24,
     "saves": 60,
     "followers": 0
   },
-  "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
-    "views": 160300,
-    "likes": 557,
-    "shares": 68,
-    "comments": 24,
-    "saves": 48,
-    "followers": 0
+  "_debug_sarun_kritaterakul": {
+    "orig_url": "https://vt.tiktok.com/ZS9aBHdoY/",
+    "curl_resolve": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi|403",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634817786115525906: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
-    "views": 843800,
-    "likes": 1286,
+    "views": 852000,
+    "likes": 1292,
     "shares": 58,
     "comments": 15,
-    "saves": 59,
+    "saves": 60,
     "followers": 0
   }
 }
