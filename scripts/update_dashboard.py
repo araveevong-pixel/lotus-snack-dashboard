@@ -170,7 +170,7 @@ KOL_METADATA = {
 KOL_LINKS = {
     "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
     "minkmories": "https://vt.tiktok.com/ZS9bLxokr/",
-    "dairyparty": "https://vt.tiktok.com/ZS9nKRULc/",
+    "dairyparty": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
     "narongrit11414": "https://vt.tiktok.com/ZS9EsqqWw/",
     "tanawatpankaew": "https://vt.tiktok.com/ZS9KqJggx/",
     "fford._.mini": "https://vt.tiktok.com/ZS9bMV5M5/",
@@ -195,7 +195,7 @@ NOT_POSTED_KOLS = set([])
 KOL_STATUS = {
     "markc.boardgame": "Posted",
     "minkmories": "Posted",
-    "dairyparty": "Posted",
+    "dairyparty": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
     "narongrit11414": "Posted",
     "tanawatpankaew": "Posted",
     "fford._.mini": "Posted",
