@@ -1,23 +1,26 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 433500,
-    "likes": 584,
-    "shares": 9,
+    "views": 445800,
+    "likes": 597,
+    "shares": 10,
     "comments": 3,
-    "saves": 30,
+    "saves": 33,
     "followers": 0
   },
-  "_debug_minkmories": {
-    "orig_url": "https://vt.tiktok.com/ZS9bLxokr/",
-    "curl_resolve": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7636726243588672786: Unable to extract universal data for rehydration; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "minkmories": {
+    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
+    "views": 451700,
+    "likes": 394,
+    "shares": 24,
+    "comments": 5,
+    "saves": 31,
+    "followers": 0
   },
   "dairyparty": {
-    "url": "https://www.tiktok.com/@dairyparty/video/7637713170424974599",
+    "url": "https://www.tiktok.com/@dairyparty/video/7637713170424974599?_r=1&_t=ZS-96CzpprrTnj",
     "views": 47100,
-    "likes": 3770,
+    "likes": 3771,
     "shares": 911,
     "comments": 28,
     "saves": 293,
@@ -25,32 +28,35 @@
   },
   "narongrit11414": {
     "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
-    "views": 86600,
-    "likes": 98,
+    "views": 88400,
+    "likes": 99,
     "shares": 0,
     "comments": 2,
     "saves": 5,
     "followers": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
-    "views": 112000,
-    "likes": 250,
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
+    "views": 116200,
+    "likes": 252,
     "shares": 150,
     "comments": 8,
     "saves": 5,
     "followers": 0
   },
-  "_debug_fford._.mini": {
-    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7636740621125864722: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "fford._.mini": {
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "views": 747400,
+    "likes": 287,
+    "shares": 10,
+    "comments": 2,
+    "saves": 44,
+    "followers": 0
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 109600,
-    "likes": 4421,
+    "views": 110500,
+    "likes": 4425,
     "shares": 264,
     "comments": 17,
     "saves": 127,
@@ -58,8 +64,8 @@
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 226900,
-    "likes": 177,
+    "views": 230100,
+    "likes": 179,
     "shares": 57,
     "comments": 10,
     "saves": 13,
@@ -67,8 +73,8 @@
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 153400,
-    "likes": 1224,
+    "views": 155000,
+    "likes": 1225,
     "shares": 31,
     "comments": 11,
     "saves": 30,
@@ -76,8 +82,8 @@
   },
   "tuajeed.office": {
     "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
-    "views": 1400000,
-    "likes": 387,
+    "views": 1500000,
+    "likes": 397,
     "shares": 10,
     "comments": 1,
     "saves": 56,
@@ -85,60 +91,72 @@
   },
   "miinez_": {
     "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
-    "views": 56600,
-    "likes": 1277,
+    "views": 57300,
+    "likes": 1287,
     "shares": 32,
     "comments": 13,
-    "saves": 64,
+    "saves": 65,
     "followers": 0
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 167200,
-    "likes": 4103,
-    "shares": 187,
+    "views": 168700,
+    "likes": 4115,
+    "shares": 188,
     "comments": 35,
     "saves": 145,
     "followers": 0
   },
-  "_debug_sharkwow.ch": {
-    "orig_url": "https://vt.tiktok.com/ZS9Kq6Fbf/",
-    "curl_resolve": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7638859579744423169: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "sharkwow.ch": {
+    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
+    "views": 1200000,
+    "likes": 867,
+    "shares": 44,
+    "comments": 6,
+    "saves": 45,
+    "followers": 0
   },
-  "_debug_witbenmoreallright": {
-    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
-    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634892988916714772: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "witbenmoreallright": {
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
+    "views": 122500,
+    "likes": 360,
+    "shares": 10,
+    "comments": 16,
+    "saves": 19,
+    "followers": 0
   },
-  "_debug_gampamao": {
-    "orig_url": "https://vt.tiktok.com/ZS9aSw6mn/",
-    "curl_resolve": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634892029494971656: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "gampamao": {
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "views": 57300,
+    "likes": 249,
+    "shares": 1,
+    "comments": 5,
+    "saves": 14,
+    "followers": 0
   },
-  "_debug_tatatomang": {
-    "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
-    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7638965169816751381: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "tatatomang": {
+    "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN",
+    "views": 10900,
+    "likes": 187,
+    "shares": 2,
+    "comments": 20,
+    "saves": 4,
+    "followers": 0
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1000000,
-    "likes": 1715,
-    "shares": 63,
+    "likes": 1734,
+    "shares": 76,
     "comments": 24,
     "saves": 85,
     "followers": 0
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
-    "views": 229100,
-    "likes": 615,
-    "shares": 73,
+    "views": 238400,
+    "likes": 624,
+    "shares": 75,
     "comments": 24,
     "saves": 55,
     "followers": 0
@@ -146,10 +164,10 @@
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 1100000,
-    "likes": 1532,
-    "shares": 70,
+    "likes": 1561,
+    "shares": 73,
     "comments": 15,
-    "saves": 70,
+    "saves": 75,
     "followers": 0
   }
 }
