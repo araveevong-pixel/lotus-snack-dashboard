@@ -1,8 +1,8 @@
 {
   "markc.boardgame": {
     "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 680800,
-    "likes": 721,
+    "views": 688300,
+    "likes": 730,
     "shares": 13,
     "comments": 3,
     "saves": 46,
@@ -10,8 +10,8 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 497200,
-    "likes": 433,
+    "views": 505600,
+    "likes": 443,
     "shares": 24,
     "comments": 5,
     "saves": 33,
@@ -19,8 +19,8 @@
   },
   "dairyparty": {
     "url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
-    "views": 30200,
-    "likes": 254,
+    "views": 31100,
+    "likes": 255,
     "shares": 21,
     "comments": 9,
     "saves": 7,
@@ -28,7 +28,7 @@
   },
   "narongrit11414": {
     "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
-    "views": 150500,
+    "views": 153400,
     "likes": 113,
     "shares": 1,
     "comments": 2,
@@ -37,8 +37,8 @@
   },
   "tanawatpankaew": {
     "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
-    "views": 157200,
-    "likes": 275,
+    "views": 161800,
+    "likes": 277,
     "shares": 151,
     "comments": 8,
     "saves": 11,
@@ -47,7 +47,7 @@
   "fford._.mini": {
     "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
     "views": 1100000,
-    "likes": 421,
+    "likes": 423,
     "shares": 15,
     "comments": 3,
     "saves": 61,
@@ -55,8 +55,8 @@
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 185300,
-    "likes": 5519,
+    "views": 186100,
+    "likes": 5524,
     "shares": 433,
     "comments": 18,
     "saves": 144,
@@ -64,17 +64,17 @@
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 303600,
-    "likes": 209,
+    "views": 305500,
+    "likes": 210,
     "shares": 59,
     "comments": 10,
     "saves": 16,
     "followers": 0
   },
   "saruanly": {
-    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740",
-    "views": 190300,
-    "likes": 1247,
+    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
+    "views": 191200,
+    "likes": 1248,
     "shares": 35,
     "comments": 12,
     "saves": 31,
@@ -82,49 +82,52 @@
   },
   "tuajeed.office": {
     "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
-    "views": 2000000,
-    "likes": 528,
+    "views": 2100000,
+    "likes": 532,
     "shares": 19,
     "comments": 3,
     "saves": 67,
     "followers": 0
   },
-  "_debug_miinez_": {
-    "orig_url": "https://vt.tiktok.com/ZS9tk5kKo/",
-    "curl_resolve": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP|403",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7637489000676166932: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "miinez_": {
+    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
+    "views": 75900,
+    "likes": 1429,
+    "shares": 34,
+    "comments": 13,
+    "saves": 71,
+    "followers": 0
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 194800,
-    "likes": 4282,
-    "shares": 203,
+    "views": 197200,
+    "likes": 4289,
+    "shares": 204,
     "comments": 34,
     "saves": 153,
     "followers": 0
   },
   "sharkwow.ch": {
     "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
-    "views": 1800000,
-    "likes": 1146,
+    "views": 1900000,
+    "likes": 1157,
     "shares": 62,
     "comments": 9,
-    "saves": 69,
+    "saves": 70,
     "followers": 0
   },
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 200900,
-    "likes": 416,
+    "views": 203300,
+    "likes": 419,
     "shares": 17,
     "comments": 16,
     "saves": 22,
     "followers": 0
   },
   "gampamao": {
-    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656",
-    "views": 80600,
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "views": 81100,
     "likes": 266,
     "shares": 1,
     "comments": 5,
@@ -133,7 +136,7 @@
   },
   "tatatomang": {
     "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN",
-    "views": 18100,
+    "views": 18400,
     "likes": 210,
     "shares": 3,
     "comments": 20,
@@ -143,16 +146,16 @@
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1200000,
-    "likes": 1933,
+    "likes": 1941,
     "shares": 82,
     "comments": 24,
-    "saves": 97,
+    "saves": 99,
     "followers": 0
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
-    "views": 404000,
-    "likes": 776,
+    "views": 408900,
+    "likes": 782,
     "shares": 80,
     "comments": 24,
     "saves": 65,
@@ -161,10 +164,10 @@
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 1500000,
-    "likes": 1907,
-    "shares": 87,
+    "likes": 1944,
+    "shares": 89,
     "comments": 16,
-    "saves": 104,
+    "saves": 105,
     "followers": 0
   }
 }
