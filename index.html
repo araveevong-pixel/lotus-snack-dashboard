@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOTUS Snack 2026 KOL Influencer Marketing Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
     <style>
         :root {
             --primary: #00B14F;
             --primary-dark: #008A3D;
             --secondary: #7CC576;
-            --accent-1: #F77F00;;
+            --accent-1: #F77F00;
             --accent-2: #E63946;
             --accent-3: #7209B7;
             --accent-4: #0077B6;
@@ -549,6 +550,13 @@
             </div>
         </div>
 
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">สินค้า (Sub-Product) Distribution</div>
+                <canvas id="categoryChart"></canvas>
+            </div>
+        </div>
+
         <div class="rankings-grid">
             <div class="ranking-card">
                 <div class="ranking-header">Top Views</div>
@@ -579,13 +587,21 @@
 
     <div class="modal" id="actualUseModal">
         <div class="modal-content">
-            <div class="modal-header">อัปเดตยอด Actual Use</div>
+            <div class="modal-header">อัปเดตยอด Actual Use (แยกตามสินค้า)</div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label>Actual Use (THB)</label>
-                    <input type="number" id="actualUseInput" class="input-number" placeholder="0">
+                    <label>หนังไก่กรอบ (THB) — งบ 150,000</label>
+                    <input type="number" id="actualUseNangkai" class="input-number" placeholder="0">
                 </div>
-                <p style="color: var(--text-light); font-size: 0.9em;">ค่าระหว่าง 0 - 304,250 THB</p>
+                <div class="form-group">
+                    <label>น่องไก่ (THB) — งบ 75,000</label>
+                    <input type="number" id="actualUseNongkai" class="input-number" placeholder="0">
+                </div>
+                <div class="form-group">
+                    <label>ขาไก่ (THB) — งบ 75,000</label>
+                    <input type="number" id="actualUseKhakai" class="input-number" placeholder="0">
+                </div>
+                <p style="color: var(--text-light); font-size: 0.9em;">รวมทั้งแคมเปญ: งบ 300,000 THB</p>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" onclick="closeModal('actualUseModal')">Cancel</button>
@@ -605,43 +621,49 @@
 
         const CAMPAIGN_KPI_VIEWS = CATEGORY_CONFIG.all.target;
         const CAMPAIGN_MEDIA_BUDGET = CATEGORY_CONFIG.all.budget;
-        const CAMPAIGN_ACTUAL_USE_DEFAULT = 0.0;
-        const STORAGE_KEY = 'lotus_snack_dashboard_actual_use';
+        const CAMPAIGN_ACTUAL_USE_DEFAULT = {"หนังไก่": 0, "น่องไก่": 0, "ขาไก่": 0};
+        const STORAGE_KEY = 'lotus_snack_dashboard_actual_use_v2';
 
         const CATEGORY_BADGE_MAP = {"หนังไก่": "badge-1", "น่องไก่": "badge-2", "ขาไก่": "badge-3"};
 
         const KOL_DATA = [
-  { username: 'markc.boardgame', displayName: 'markc.boardgame', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 104900, views: 680800, likes: 721, shares: 13, comments: 3, saves: 46, posts: 1, kpi_views: 680800, posted: true, link: 'https://vt.tiktok.com/ZS9aPr8MX/', budget: 12000, status: 'Posted' },
-  { username: 'minkmories', displayName: 'minkmories', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 363400, views: 497200, likes: 433, shares: 24, comments: 5, saves: 33, posts: 1, kpi_views: 497200, posted: true, link: 'https://vt.tiktok.com/ZS9bLxokr/', budget: 15000, status: 'Posted' },
-  { username: 'dairyparty', displayName: 'dairyparty', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 68700, views: 30200, likes: 254, shares: 21, comments: 9, saves: 7, posts: 1, kpi_views: 30200, posted: true, link: 'https://www.tiktok.com/@dairyparty/video/7637753510116740360', budget: 10000, status: 'Posted' },
-  { username: 'narongrit11414', displayName: 'narongrit', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 85700, views: 150500, likes: 113, shares: 1, comments: 2, saves: 8, posts: 1, kpi_views: 150500, posted: true, link: 'https://vt.tiktok.com/ZS9EsqqWw/', budget: 16000, status: 'Posted' },
-  { username: 'tanawatpankaew', displayName: 'tanawatpankaew', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 77400, views: 157200, likes: 275, shares: 151, comments: 8, saves: 11, posts: 1, kpi_views: 157200, posted: true, link: 'https://vt.tiktok.com/ZS9KqJggx/', budget: 5000, status: 'Posted' },
-  { username: 'fford._.mini', displayName: 'fford._.mini', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 23200, views: 1100000, likes: 421, shares: 15, comments: 3, saves: 61, posts: 1, kpi_views: 1100000, posted: true, link: 'https://vt.tiktok.com/ZS9bMV5M5/', budget: 7000, status: 'Posted' },
-  { username: 'ledswu', displayName: 'ledswu', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 138400, views: 185300, likes: 5519, shares: 433, comments: 18, saves: 144, posts: 1, kpi_views: 185300, posted: true, link: 'https://vt.tiktok.com/ZS9G9rGKX/', budget: 17000, status: 'Posted' },
-  { username: 'debuam012', displayName: 'debuam012', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 20600, views: 303600, likes: 209, shares: 59, comments: 10, saves: 16, posts: 1, kpi_views: 303600, posted: true, link: 'https://vt.tiktok.com/ZS9bFpyNh/', budget: 4500, status: 'Posted' },
-  { username: 'saruanly', displayName: 'saruanly', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 6639, views: 190300, likes: 1247, shares: 35, comments: 12, saves: 31, posts: 1, kpi_views: 190300, posted: true, link: 'https://vt.tiktok.com/ZS9a2kjxW/', budget: 7250, status: 'Posted' },
-  { username: 'tuajeed.office', displayName: 'tuajeed.office', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 27000, views: 2000000, likes: 528, shares: 19, comments: 3, saves: 67, posts: 1, kpi_views: 2000000, posted: true, link: 'https://vt.tiktok.com/ZSxjfekwg/', budget: 14500, status: 'Posted' },
+  { username: 'markc.boardgame', displayName: 'markc.boardgame', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 104900, views: 669500, likes: 717, shares: 13, comments: 3, saves: 46, posts: 1, kpi_views: 669500, posted: true, link: 'https://vt.tiktok.com/ZS9aPr8MX/', budget: 12000, status: 'Posted' },
+  { username: 'minkmories', displayName: 'minkmories', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 363400, views: 492400, likes: 424, shares: 24, comments: 5, saves: 33, posts: 1, kpi_views: 492400, posted: true, link: 'https://vt.tiktok.com/ZS9bLxokr/', budget: 15000, status: 'Posted' },
+  { username: 'dairyparty', displayName: 'dairyparty', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 68700, views: 29800, likes: 254, shares: 21, comments: 9, saves: 7, posts: 1, kpi_views: 29800, posted: true, link: 'https://www.tiktok.com/@dairyparty/video/7637753510116740360', budget: 10000, status: 'Posted' },
+  { username: 'narongrit11414', displayName: 'narongrit', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 85700, views: 148300, likes: 113, shares: 1, comments: 2, saves: 8, posts: 1, kpi_views: 148300, posted: true, link: 'https://vt.tiktok.com/ZS9EsqqWw/', budget: 16000, status: 'Posted' },
+  { username: 'tanawatpankaew', displayName: 'tanawatpankaew', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 77400, views: 155000, likes: 272, shares: 151, comments: 8, saves: 11, posts: 1, kpi_views: 155000, posted: true, link: 'https://vt.tiktok.com/ZS9KqJggx/', budget: 5000, status: 'Posted' },
+  { username: 'fford._.mini', displayName: 'fford._.mini', tier: 'ขาไก่', platform: 'TikTok', category: 'ขาไก่', gender: '-', followers: 23200, views: 1100000, likes: 417, shares: 15, comments: 3, saves: 61, posts: 1, kpi_views: 1100000, posted: true, link: 'https://vt.tiktok.com/ZS9bMV5M5/', budget: 7000, status: 'Posted' },
+  { username: 'ledswu', displayName: 'ledswu', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 138400, views: 184400, likes: 5513, shares: 433, comments: 18, saves: 144, posts: 1, kpi_views: 184400, posted: true, link: 'https://vt.tiktok.com/ZS9G9rGKX/', budget: 17000, status: 'Posted' },
+  { username: 'debuam012', displayName: 'debuam012', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 20600, views: 299900, likes: 206, shares: 59, comments: 10, saves: 16, posts: 1, kpi_views: 299900, posted: true, link: 'https://vt.tiktok.com/ZS9bFpyNh/', budget: 4500, status: 'Posted' },
+  { username: 'saruanly', displayName: 'saruanly', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 6639, views: 188500, likes: 1245, shares: 35, comments: 11, saves: 31, posts: 1, kpi_views: 188500, posted: true, link: 'https://vt.tiktok.com/ZS9a2kjxW/', budget: 7250, status: 'Posted' },
+  { username: 'tuajeed.office', displayName: 'tuajeed.office', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 27000, views: 2000000, likes: 521, shares: 18, comments: 3, saves: 67, posts: 1, kpi_views: 2000000, posted: true, link: 'https://vt.tiktok.com/ZSxjfekwg/', budget: 14500, status: 'Posted' },
   { username: 'miinez_', displayName: 'miinez_', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 39100, views: 74900, likes: 1420, shares: 34, comments: 13, saves: 71, posts: 1, kpi_views: 74900, posted: true, link: 'https://vt.tiktok.com/ZS9tk5kKo/', budget: 15000, status: 'Posted' },
-  { username: 'gonsalosol', displayName: 'gonsalosol', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 372900, views: 194800, likes: 4282, shares: 203, comments: 34, saves: 153, posts: 1, kpi_views: 194800, posted: true, link: 'https://vt.tiktok.com/ZSx8JCwkq/', budget: 26000, status: 'Posted' },
-  { username: 'sharkwow.ch', displayName: 'sharkwow.ch', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 578300, views: 1800000, likes: 1146, shares: 62, comments: 9, saves: 69, posts: 1, kpi_views: 1800000, posted: true, link: 'https://vt.tiktok.com/ZS9Kq6Fbf/', budget: 40000, status: 'Posted' },
-  { username: 'witbenmoreallright', displayName: 'witbenmoreallright', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 1000000, views: 200900, likes: 416, shares: 17, comments: 16, saves: 22, posts: 1, kpi_views: 200900, posted: true, link: 'https://vt.tiktok.com/ZS9aABnfe/', budget: 35000, status: 'Posted' },
-  { username: 'gampamao', displayName: 'ไอ้แก้มขี้เมา', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 182600, views: 80600, likes: 266, shares: 1, comments: 5, saves: 15, posts: 1, kpi_views: 80600, posted: true, link: 'https://vt.tiktok.com/ZS9aSw6mn/', budget: 15000, status: 'Posted' },
-  { username: 'tatatomang', displayName: 'tatatomang', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 186900, views: 18100, likes: 210, shares: 3, comments: 20, saves: 5, posts: 1, kpi_views: 18100, posted: true, link: 'https://vt.tiktok.com/ZS9KbaK3n/', budget: 15000, status: 'Posted' },
-  { username: 'taloncamp_sg', displayName: 'ตะลอนแคมภ์', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 257100, views: 1200000, likes: 1933, shares: 82, comments: 24, saves: 97, posts: 1, kpi_views: 1200000, posted: true, link: 'https://vt.tiktok.com/ZS9bmgMM2/', budget: 19000, status: 'Posted' },
-  { username: 'sarun_kritaterakul', displayName: 'sarun_kritaterakul', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 30600, views: 404000, likes: 776, shares: 80, comments: 24, saves: 65, posts: 1, kpi_views: 404000, posted: true, link: 'https://vt.tiktok.com/ZS9aBHdoY/', budget: 9000, status: 'Posted' },
-  { username: 'nattienote', displayName: 'nattienote', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 274900, views: 1500000, likes: 1907, shares: 87, comments: 16, saves: 104, posts: 1, kpi_views: 1500000, posted: true, link: 'https://vt.tiktok.com/ZS9vSfoWE/', budget: 22000, status: 'Posted' }
-];
+  { username: 'gonsalosol', displayName: 'gonsalosol', tier: 'น่องไก่', platform: 'TikTok', category: 'น่องไก่', gender: '-', followers: 372900, views: 193700, likes: 4274, shares: 203, comments: 34, saves: 152, posts: 1, kpi_views: 193700, posted: true, link: 'https://vt.tiktok.com/ZSx8JCwkq/', budget: 26000, status: 'Posted' },
+  { username: 'sharkwow.ch', displayName: 'sharkwow.ch', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 578300, views: 1800000, likes: 1135, shares: 62, comments: 9, saves: 69, posts: 1, kpi_views: 1800000, posted: true, link: 'https://vt.tiktok.com/ZS9Kq6Fbf/', budget: 40000, status: 'Posted' },
+  { username: 'witbenmoreallright', displayName: 'witbenmoreallright', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 1000000, views: 197600, likes: 415, shares: 17, comments: 16, saves: 22, posts: 1, kpi_views: 197600, posted: true, link: 'https://vt.tiktok.com/ZS9aABnfe/', budget: 35000, status: 'Posted' },
+  { username: 'gampamao', displayName: 'ไอ้แก้มขี้เมา', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 182600, views: 79800, likes: 265, shares: 1, comments: 5, saves: 15, posts: 1, kpi_views: 79800, posted: true, link: 'https://vt.tiktok.com/ZS9aSw6mn/', budget: 15000, status: 'Posted' },
+  { username: 'tatatomang', displayName: 'tatatomang', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 186900, views: 17800, likes: 209, shares: 3, comments: 20, saves: 5, posts: 1, kpi_views: 17800, posted: true, link: 'https://vt.tiktok.com/ZS9KbaK3n/', budget: 15000, status: 'Posted' },
+  { username: 'taloncamp_sg', displayName: 'ตะลอนแคมภ์', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 257100, views: 1200000, likes: 1919, shares: 82, comments: 24, saves: 96, posts: 1, kpi_views: 1200000, posted: true, link: 'https://vt.tiktok.com/ZS9bmgMM2/', budget: 19000, status: 'Posted' },
+  { username: 'sarun_kritaterakul', displayName: 'sarun_kritaterakul', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 30600, views: 395300, likes: 765, shares: 80, comments: 24, saves: 65, posts: 1, kpi_views: 395300, posted: true, link: 'https://vt.tiktok.com/ZS9aBHdoY/', budget: 9000, status: 'Posted' },
+  { username: 'nattienote', displayName: 'nattienote', tier: 'หนังไก่', platform: 'TikTok', category: 'หนังไก่', gender: '-', followers: 274900, views: 1400000, likes: 1883, shares: 87, comments: 16, saves: 100, posts: 1, kpi_views: 1400000, posted: true, link: 'https://vt.tiktok.com/ZS9vSfoWE/', budget: 22000, status: 'Posted' }
+        ];
 
         let kolData = [...KOL_DATA];
         let currentCategoryFilter = 'all';
         let currentSort = null;
         let sortDirection = 'asc';
-        let CAMPAIGN_ACTUAL_USE = parseFloat(localStorage.getItem(STORAGE_KEY)) || CAMPAIGN_ACTUAL_USE_DEFAULT;
+        let CAMPAIGN_ACTUAL_USE = JSON.parse(localStorage.getItem(STORAGE_KEY)) || JSON.parse(JSON.stringify(CAMPAIGN_ACTUAL_USE_DEFAULT));
+        function getActualUse(filter) {
+            const f = filter || currentCategoryFilter;
+            if (f === 'all') return Object.values(CAMPAIGN_ACTUAL_USE).reduce((a,b) => a+b, 0);
+            return CAMPAIGN_ACTUAL_USE[f] || 0;
+        }
 
         document.addEventListener('DOMContentLoaded', function() {
             renderKOLTable();
             updateKPIs();
             setupEventListeners();
+            initCharts();
             updateRankings();
         });
 
@@ -653,6 +675,7 @@
                     currentCategoryFilter = this.dataset.category;
                     renderKOLTable();
                     updateKPIs();
+                    updateCharts();
                     updateRankings();
                 });
             });
@@ -721,7 +744,8 @@
             stats.activeTarget = cfg.target;
             stats.activeBudget = cfg.budget;
             stats.achievePct = ((stats.totalViews / cfg.target) * 100).toFixed(2);
-            stats.budgetPct = ((CAMPAIGN_ACTUAL_USE / cfg.budget) * 100).toFixed(2);
+            stats.actualUse = getActualUse();
+            stats.budgetPct = ((stats.actualUse / cfg.budget) * 100).toFixed(2);
             return stats;
         }
 
@@ -731,7 +755,7 @@
             document.getElementById('kpi-actual-views').textContent = formatNumber(stats.totalViews);
             document.getElementById('kpi-achieve-pct').textContent = stats.achievePct + '%';
             document.getElementById('kpi-budget').textContent = formatNumber(stats.activeBudget);
-            document.getElementById('kpi-actual-use').textContent = formatNumber(CAMPAIGN_ACTUAL_USE);
+            document.getElementById('kpi-actual-use').textContent = formatNumber(stats.actualUse);
             document.getElementById('kpi-budget-pct').textContent = stats.budgetPct + '%';
             document.getElementById('kpi-creators').textContent = formatNumber(stats.creators);
             document.getElementById('kpi-likes').textContent = formatNumber(stats.totalLikes);
@@ -800,6 +824,31 @@
             });
         }
 
+        let categoryChart;
+
+        function initCharts() {
+            const catLabels = Object.keys(CATEGORY_BADGE_MAP);
+            const catColors = catLabels.map(l => getComputedStyle(document.documentElement).getPropertyValue('--' + (CATEGORY_BADGE_MAP[l].replace('badge-','accent-'))).trim() || getComputedStyle(document.documentElement).getPropertyValue('--primary').trim());
+
+            categoryChart = new Chart(document.getElementById('categoryChart').getContext('2d'), {
+                type: 'doughnut',
+                data: {
+                    labels: catLabels,
+                    datasets: [{ data: catLabels.map(_ => 0), backgroundColor: catColors, borderColor: '#FFF', borderWidth: 2 }]
+                },
+                options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { font: { family: "'Sarabun', sans-serif", size: 12 }, padding: 15 } } } }
+            });
+
+            updateCharts();
+        }
+
+        function updateCharts() {
+            const data = getFilteredData();
+            const catLabels = Object.keys(CATEGORY_BADGE_MAP);
+            categoryChart.data.datasets[0].data = catLabels.map(l => data.filter(k => k.category === l).length);
+            categoryChart.update();
+        }
+
         function updateRankings() {
             const data = getFilteredData();
             renderRanking('ranking-views', [...data].sort((a,b)=>b.views-a.views).slice(0,5), 'views');
@@ -837,7 +886,9 @@
         }
 
         function openActualUseModal() {
-            document.getElementById('actualUseInput').value = CAMPAIGN_ACTUAL_USE;
+            document.getElementById('actualUseNangkai').value = CAMPAIGN_ACTUAL_USE['หนังไก่'] || 0;
+            document.getElementById('actualUseNongkai').value = CAMPAIGN_ACTUAL_USE['น่องไก่'] || 0;
+            document.getElementById('actualUseKhakai').value = CAMPAIGN_ACTUAL_USE['ขาไก่'] || 0;
             document.getElementById('actualUseModal').classList.add('active');
         }
 
@@ -846,13 +897,15 @@
         }
 
         function saveActualUse() {
-            const value = parseFloat(document.getElementById('actualUseInput').value) || 0;
-            if (value < 0 || value > CAMPAIGN_MEDIA_BUDGET) {
-                alert('กรุณาใส่ค่าระหว่าง 0 - ' + formatNumber(CAMPAIGN_MEDIA_BUDGET) + ' THB');
+            const nangkai = parseFloat(document.getElementById('actualUseNangkai').value) || 0;
+            const nongkai = parseFloat(document.getElementById('actualUseNongkai').value) || 0;
+            const khakai = parseFloat(document.getElementById('actualUseKhakai').value) || 0;
+            if (nangkai < 0 || nongkai < 0 || khakai < 0) {
+                alert('กรุณาใส่ค่าที่ไม่ติดลบ');
                 return;
             }
-            CAMPAIGN_ACTUAL_USE = value;
-            localStorage.setItem(STORAGE_KEY, value);
+            CAMPAIGN_ACTUAL_USE = {"หนังไก่": nangkai, "น่องไก่": nongkai, "ขาไก่": khakai};
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(CAMPAIGN_ACTUAL_USE));
             updateKPIs();
             closeModal('actualUseModal');
         }
