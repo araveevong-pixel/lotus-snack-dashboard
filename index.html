@@ -550,12 +550,7 @@
             </div>
         </div>
 
-        <div class="charts-grid">
-            <div class="chart-card">
-                <div class="chart-title">สินค้า (Sub-Product) Distribution</div>
-                <canvas id="categoryChart"></canvas>
-            </div>
-        </div>
+        <!-- chart removed -->
 
         <div class="rankings-grid">
             <div class="ranking-card">
@@ -663,7 +658,6 @@
             renderKOLTable();
             updateKPIs();
             setupEventListeners();
-            initCharts();
             updateRankings();
         });
 
@@ -675,7 +669,6 @@
                     currentCategoryFilter = this.dataset.category;
                     renderKOLTable();
                     updateKPIs();
-                    updateCharts();
                     updateRankings();
                 });
             });
@@ -822,31 +815,6 @@
                     th.classList.add(sortDirection === 'asc' ? 'sorted-asc' : 'sorted-desc');
                 }
             });
-        }
-
-        let categoryChart;
-
-        function initCharts() {
-            const catLabels = Object.keys(CATEGORY_BADGE_MAP);
-            const catColors = catLabels.map(l => getComputedStyle(document.documentElement).getPropertyValue('--' + (CATEGORY_BADGE_MAP[l].replace('badge-','accent-'))).trim() || getComputedStyle(document.documentElement).getPropertyValue('--primary').trim());
-
-            categoryChart = new Chart(document.getElementById('categoryChart').getContext('2d'), {
-                type: 'doughnut',
-                data: {
-                    labels: catLabels,
-                    datasets: [{ data: catLabels.map(_ => 0), backgroundColor: catColors, borderColor: '#FFF', borderWidth: 2 }]
-                },
-                options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { font: { family: "'Sarabun', sans-serif", size: 12 }, padding: 15 } } } }
-            });
-
-            updateCharts();
-        }
-
-        function updateCharts() {
-            const data = getFilteredData();
-            const catLabels = Object.keys(CATEGORY_BADGE_MAP);
-            categoryChart.data.datasets[0].data = catLabels.map(l => data.filter(k => k.category === l).length);
-            categoryChart.update();
         }
 
         function updateRankings() {
