@@ -195,7 +195,7 @@ NOT_POSTED_KOLS = set([])
 KOL_STATUS = {
     "markc.boardgame": "Posted",
     "minkmories": "Posted",
-    "dairyparty": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
+        "dairyparty": "Posted",
     "narongrit11414": "Posted",
     "tanawatpankaew": "Posted",
     "fford._.mini": "Posted",
