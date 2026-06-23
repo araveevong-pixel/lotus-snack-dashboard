@@ -62,17 +62,14 @@
     "saves": 149,
     "followers": 0
   },
-  "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 415500,
-    "likes": 251,
-    "shares": 60,
-    "comments": 10,
-    "saves": 21,
-    "followers": 0
+  "_debug_debuam012": {
+    "orig_url": "https://vt.tiktok.com/ZS9bFpyNh/",
+    "curl_resolve": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG|403",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "saruanly": {
-    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
+    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740",
     "views": 251300,
     "likes": 1273,
     "shares": 36,
@@ -107,23 +104,17 @@
     "saves": 172,
     "followers": 0
   },
-  "sharkwow.ch": {
-    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
-    "views": 2700000,
-    "likes": 1561,
-    "shares": 83,
-    "comments": 10,
-    "saves": 95,
-    "followers": 0
+  "_debug_sharkwow.ch": {
+    "orig_url": "https://vt.tiktok.com/ZS9Kq6Fbf/",
+    "curl_resolve": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638859579744423169: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
-  "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 715700,
-    "likes": 830,
-    "shares": 43,
-    "comments": 17,
-    "saves": 58,
-    "followers": 0
+  "_debug_witbenmoreallright": {
+    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
+    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
@@ -135,7 +126,7 @@
     "followers": 0
   },
   "tatatomang": {
-    "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN",
+    "url": "https://www.tiktok.com/@tatatomang/video/7638965169816751381",
     "views": 21500,
     "likes": 222,
     "shares": 3,
