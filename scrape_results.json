@@ -62,14 +62,11 @@
     "saves": 149,
     "followers": 0
   },
-  "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
-    "views": 415500,
-    "likes": 251,
-    "shares": 60,
-    "comments": 10,
-    "saves": 21,
-    "followers": 0
+  "_debug_debuam012": {
+    "orig_url": "https://vt.tiktok.com/ZS9bFpyNh/",
+    "curl_resolve": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG|403",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "saruanly": {
     "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
@@ -89,19 +86,16 @@
     "saves": 86,
     "followers": 0
   },
-  "miinez_": {
-    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
-    "views": 94600,
-    "likes": 1520,
-    "shares": 34,
-    "comments": 13,
-    "saves": 78,
-    "followers": 0
+  "_debug_miinez_": {
+    "orig_url": "https://vt.tiktok.com/ZS9tk5kKo/",
+    "curl_resolve": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP|403",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
     "views": 214400,
-    "likes": 4502,
+    "likes": 4503,
     "shares": 205,
     "comments": 35,
     "saves": 172,
@@ -119,7 +113,7 @@
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 715700,
-    "likes": 832,
+    "likes": 833,
     "shares": 43,
     "comments": 17,
     "saves": 59,
@@ -164,7 +158,7 @@
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 1900000,
-    "likes": 2411,
+    "likes": 2412,
     "shares": 118,
     "comments": 16,
     "saves": 129,
