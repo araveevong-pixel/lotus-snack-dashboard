@@ -45,7 +45,7 @@
     "followers": 0
   },
   "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722",
     "views": 1600000,
     "likes": 552,
     "shares": 23,
@@ -100,7 +100,7 @@
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 217800,
+    "views": 217900,
     "likes": 4558,
     "shares": 207,
     "comments": 35,
@@ -116,14 +116,11 @@
     "saves": 95,
     "followers": 0
   },
-  "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 718100,
-    "likes": 883,
-    "shares": 44,
-    "comments": 19,
-    "saves": 63,
-    "followers": 0
+  "_debug_witbenmoreallright": {
+    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
+    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|403",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
@@ -164,7 +161,7 @@
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 1900000,
-    "likes": 2433,
+    "likes": 2432,
     "shares": 118,
     "comments": 16,
     "saves": 129,
