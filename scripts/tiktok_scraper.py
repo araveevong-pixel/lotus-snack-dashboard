@@ -23,7 +23,7 @@ MANUAL_OVERRIDE = {
 }
 
 # ============================================================
-#  KOL LINKS — สร้างจาก Excel โดย skill kol-dashboard-generator
+#  PHASE 1 — KOL LINKS
 # ============================================================
 KOL_LINKS = {
     "markc.boardgame": "https://vt.tiktok.com/ZS9aPr8MX/",
@@ -45,6 +45,38 @@ KOL_LINKS = {
     "taloncamp_sg": "https://vt.tiktok.com/ZS9bmgMM2/",
     "sarun_kritaterakul": "https://vt.tiktok.com/ZS9aBHdoY/",
     "nattienote": "https://vt.tiktok.com/ZS9vSfoWE/"
+}
+
+# ============================================================
+#  PHASE 2 — KOL LINKS (เฉพาะ KOL ที่โพสต์แล้ว 23 คน)
+# ============================================================
+PHASE2_KOL_LINKS = {
+    # ขาไก่ (10)
+    "nurse.enjoyea": "https://vt.tiktok.com/ZSxj8y8NJ/",
+    "100lowteens": "https://vt.tiktok.com/ZSxjL54pt/",
+    "joinjoy89": "https://vt.tiktok.com/ZSxjNhn8F/",
+    "sristories.official": "https://vt.tiktok.com/ZSxj8gg1R/",
+    "mayme_711": "https://vt.tiktok.com/ZSxjLgM9x/",
+    "tima.chan": "https://vt.tiktok.com/ZSxjNswob/",
+    "ningninkka": "https://vt.tiktok.com/ZSxj2na5x/",
+    "pizzaplazaa": "https://vt.tiktok.com/ZSxrL3jxJ/",
+    "i.prim": "https://vt.tiktok.com/ZSxr6JhsA/",
+    "bolongkinn": "https://vt.tiktok.com/ZSxvnEUhy/",
+    # น่องไก่ (8)
+    "haruyda": "https://vt.tiktok.com/ZSxj8v46f/",
+    "plaifahhahaha": "https://vt.tiktok.com/ZSxj8nSsF/",
+    "chengandrock": "https://vt.tiktok.com/ZSxA59aPC/",
+    "gindaieek": "https://vt.tiktok.com/ZSxA2NWTx/",
+    "googidd": "https://vt.tiktok.com/ZSxA2v8jV/",
+    "pankpanq": "https://vt.tiktok.com/ZSxAUpMhT/",
+    "whatpalaa": "https://vt.tiktok.com/ZSxA5LxCu/",
+    "sweettart.tt": "https://vt.tiktok.com/ZSxHbfCuu/",
+    # หนังไก่ (5)
+    "11.mn.84": "https://vt.tiktok.com/ZSxANbPNw/",
+    "palmmookangrang": "https://vt.tiktok.com/ZSxAF8e7M/",
+    "enjoyeatingclub": "https://vt.tiktok.com/ZSxA5NcT4/",
+    "ssaintst": "https://vt.tiktok.com/ZSxAmdf1h/",
+    "stampginra": "https://vt.tiktok.com/ZSxA8HYhV/",
 }
 
 
@@ -121,19 +153,20 @@ def scrape_tiktok_video(url, timeout=60):
         return None
 
 
-def main():
-    output_file = sys.argv[1] if len(sys.argv) > 1 else 'scrape_results.json'
-
+def scrape_kol_list(kol_links, output_file, phase_label="Phase 1"):
+    """Scrape a dict of {username: link} and save to output_file."""
     results = {}
-    active_kols = {k: v for k, v in KOL_LINKS.items() if v and str(v).strip()}
+    active_kols = {k: v for k, v in kol_links.items() if v and str(v).strip()}
 
     if not active_kols:
-        print("No KOL links to scrape. Output empty results.")
+        print(f"[{phase_label}] No KOL links to scrape. Output empty results.")
         with open(output_file, 'w') as f:
             json.dump(results, f, indent=2)
         return
 
-    print(f"Scraping {len(active_kols)} KOL(s) using yt-dlp...")
+    print(f"\n{'='*60}")
+    print(f"[{phase_label}] Scraping {len(active_kols)} KOL(s) using yt-dlp...")
+    print(f"{'='*60}")
 
     for username, link in active_kols.items():
         if username in MANUAL_OVERRIDE:
@@ -164,9 +197,8 @@ def main():
                     capture_output=True, text=True, timeout=15
                 )
                 resolved = head_result.stdout
-                # Try yt-dlp again with verbose flag, capture full error
                 ytdlp_result = subprocess.run(
-                    ['yt-dlp', '--dump-json', '--no-download'] + 
+                    ['yt-dlp', '--dump-json', '--no-download'] +
                     (['--cookies', os.environ['TIKTOK_COOKIES_FILE']] if os.environ.get('TIKTOK_COOKIES_FILE') else []) + [link],
                     capture_output=True, text=True, timeout=30
                 )
@@ -184,8 +216,21 @@ def main():
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print(f"\nResults saved to {output_file}")
-    print(f"Successfully scraped: {len(results)}/{len(active_kols)}")
+    print(f"\n[{phase_label}] Results saved to {output_file}")
+    print(f"[{phase_label}] Successfully scraped: {len(results)}/{len(active_kols)}")
+
+
+def main():
+    output_file = sys.argv[1] if len(sys.argv) > 1 else 'scrape_results.json'
+
+    # Phase 1
+    scrape_kol_list(KOL_LINKS, output_file, "Phase 1")
+
+    # Phase 2
+    p2_output = output_file.replace('.json', '_p2.json')
+    if p2_output == output_file:
+        p2_output = 'scrape_results_p2.json'
+    scrape_kol_list(PHASE2_KOL_LINKS, p2_output, "Phase 2")
 
 
 if __name__ == '__main__':
