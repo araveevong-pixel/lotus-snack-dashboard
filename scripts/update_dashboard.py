@@ -195,7 +195,7 @@ NOT_POSTED_KOLS = set([])
 KOL_STATUS = {
     "markc.boardgame": "Posted",
     "minkmories": "Posted",
-        "dairyparty": "Posted",
+    "dairyparty": "Posted",
     "narongrit11414": "Posted",
     "tanawatpankaew": "Posted",
     "fford._.mini": "Posted",
@@ -213,6 +213,83 @@ KOL_STATUS = {
     "sarun_kritaterakul": "Posted",
     "nattienote": "Posted",
 }
+
+# ============================================================
+#  PHASE 2 — KOL METADATA & LINKS
+# ============================================================
+PHASE2_KOL_METADATA = {
+    # ขาไก่ (11 KOLs)
+    "nurse.enjoyea":      {"displayName": "nurse.enjoyea",      "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 504900, "budget": 30000},
+    "100lowteens":        {"displayName": "100lowteens",        "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 762500, "budget": 30000},
+    "joinjoy89":          {"displayName": "joinjoy89",          "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 385900, "budget": 27000},
+    "sristories.official":{"displayName": "sristories.official","tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 80800,  "budget": 22000},
+    "mayme_711":          {"displayName": "mayme_711",          "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 157800, "budget": 16000},
+    "tima.chan":           {"displayName": "tima.chan",          "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 638200, "budget": 36000},
+    "mew_natheera":       {"displayName": "mew_natheera",       "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 1600000,"budget": 35000},
+    "ningninkka":         {"displayName": "ningninkka",         "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 329500, "budget": 35000},
+    "pizzaplazaa":        {"displayName": "pizzaplazaa",        "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 278200, "budget": 26000},
+    "i.prim":             {"displayName": "i.prim",             "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 409300, "budget": 30000},
+    "bolongkinn":         {"displayName": "bolongkinn",         "tier": "ขาไก่", "category": "ขาไก่", "gender": "-", "followers": 78700,  "budget": 20000},
+    # น่องไก่ (9 KOLs)
+    "haruyda":            {"displayName": "haruyda",            "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 1400000,"budget": 50000},
+    "plaifahhahaha":      {"displayName": "plaifahhahaha",      "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 110000, "budget": 25000},
+    "chengandrock":       {"displayName": "chengandrock",       "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 730700, "budget": 40000},
+    "faymily_":           {"displayName": "faymily_",           "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 308800, "budget": 40000},
+    "gindaieek":          {"displayName": "gindaieek",          "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 1000000,"budget": 55000},
+    "googidd":            {"displayName": "googidd",            "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 426300, "budget": 37000},
+    "pankpanq":           {"displayName": "pankpanq",           "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 3661,   "budget": 17000},
+    "whatpalaa":          {"displayName": "whatpalaa",           "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 20600,  "budget": 17000},
+    "sweettart.tt":       {"displayName": "sweettart.tt",       "tier": "น่องไก่", "category": "น่องไก่", "gender": "-", "followers": 412500, "budget": 35000},
+    # หนังไก่ (10 KOLs)
+    "mild.prapaipan":     {"displayName": "กินเข้าไป",          "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 913800, "budget": 36000},
+    "11.mn.84":           {"displayName": "11.mn.84",           "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 308900, "budget": 30000},
+    "palmmookangrang":    {"displayName": "palmmookangrang",    "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 352500, "budget": 33000},
+    "mhingkualoak":       {"displayName": "mhingkualoak",       "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 162800, "budget": 26000},
+    "thintomorrow":       {"displayName": "thintomorrow",       "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 568200, "budget": 30000},
+    "farbeer69":          {"displayName": "farbeer69",          "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 213100, "budget": 26000},
+    "enjoyeatingclub":    {"displayName": "enjoyeatingclub",    "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 18200,  "budget": 18000},
+    "ssaintst":           {"displayName": "ssaintst",           "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 116200, "budget": 16000},
+    "ninkkieee":          {"displayName": "ninkkieee",          "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 48600,  "budget": 18000},
+    "stampginra":         {"displayName": "stampginrai",        "tier": "หนังไก่", "category": "หนังไก่", "gender": "-", "followers": 61000,  "budget": 18000},
+}
+
+PHASE2_KOL_LINKS = {
+    # ขาไก่ (10 posted)
+    "nurse.enjoyea": "https://vt.tiktok.com/ZSxj8y8NJ/",
+    "100lowteens": "https://vt.tiktok.com/ZSxjL54pt/",
+    "joinjoy89": "https://vt.tiktok.com/ZSxjNhn8F/",
+    "sristories.official": "https://vt.tiktok.com/ZSxj8gg1R/",
+    "mayme_711": "https://vt.tiktok.com/ZSxjLgM9x/",
+    "tima.chan": "https://vt.tiktok.com/ZSxjNswob/",
+    "ningninkka": "https://vt.tiktok.com/ZSxj2na5x/",
+    "pizzaplazaa": "https://vt.tiktok.com/ZSxrL3jxJ/",
+    "i.prim": "https://vt.tiktok.com/ZSxr6JhsA/",
+    "bolongkinn": "https://vt.tiktok.com/ZSxvnEUhy/",
+    # น่องไก่ (8 posted)
+    "haruyda": "https://vt.tiktok.com/ZSxj8v46f/",
+    "plaifahhahaha": "https://vt.tiktok.com/ZSxj8nSsF/",
+    "chengandrock": "https://vt.tiktok.com/ZSxA59aPC/",
+    "gindaieek": "https://vt.tiktok.com/ZSxA2NWTx/",
+    "googidd": "https://vt.tiktok.com/ZSxA2v8jV/",
+    "pankpanq": "https://vt.tiktok.com/ZSxAUpMhT/",
+    "whatpalaa": "https://vt.tiktok.com/ZSxA5LxCu/",
+    "sweettart.tt": "https://vt.tiktok.com/ZSxHbfCuu/",
+    # หนังไก่ (5 posted)
+    "11.mn.84": "https://vt.tiktok.com/ZSxANbPNw/",
+    "palmmookangrang": "https://vt.tiktok.com/ZSxAF8e7M/",
+    "enjoyeatingclub": "https://vt.tiktok.com/ZSxA5NcT4/",
+    "ssaintst": "https://vt.tiktok.com/ZSxAmdf1h/",
+    "stampginra": "https://vt.tiktok.com/ZSxA8HYhV/",
+}
+
+# 7 KOLs ที่ยังไม่โพสต์ Phase 2
+PHASE2_NOT_POSTED_KOLS = {
+    "mew_natheera", "faymily_", "mild.prapaipan",
+    "mhingkualoak", "thintomorrow", "farbeer69", "ninkkieee"
+}
+
+PHASE2_KOL_STATUS = {k: "โพสต์แล้ว" for k in PHASE2_KOL_LINKS}
+PHASE2_KOL_STATUS.update({k: "รอโพสต์" for k in PHASE2_NOT_POSTED_KOLS})
 
 
 
@@ -245,8 +322,17 @@ def js_escape(s):
     return str(s).replace('\\', '\\\\').replace("'", "\\'")
 
 
-def build_kol_entry(username, scrape_data, link='', existing_data=None):
-    meta = KOL_METADATA.get(username, {})
+def build_kol_entry(username, scrape_data, link='', existing_data=None,
+                    metadata_dict=None, not_posted_set=None, status_dict=None):
+    """Build a single KOL JS object string. Works for both Phase 1 and Phase 2."""
+    if metadata_dict is None:
+        metadata_dict = KOL_METADATA
+    if not_posted_set is None:
+        not_posted_set = NOT_POSTED_KOLS
+    if status_dict is None:
+        status_dict = KOL_STATUS
+
+    meta = metadata_dict.get(username, {})
     sd = scrape_data.get(username, {})
     ex = (existing_data or {}).get(username, {})
 
@@ -270,11 +356,11 @@ def build_kol_entry(username, scrape_data, link='', existing_data=None):
         comments = ex.get('comments', 0)
         saves = ex.get('saves', 0)
 
-    posted = username not in NOT_POSTED_KOLS and bool(link)
+    posted = username not in not_posted_set and bool(link)
     posts = 1 if posted else 0
     kpi_views = views
 
-    status = KOL_STATUS.get(username, 'รอส่ง')
+    status = status_dict.get(username, 'รอส่ง')
     return (
         f"  {{ username: '{js_escape(username)}', displayName: '{js_escape(display_name)}', "
         f"tier: '{js_escape(tier)}', platform: 'TikTok', category: '{js_escape(category)}', "
@@ -288,6 +374,28 @@ def build_kol_entry(username, scrape_data, link='', existing_data=None):
     )
 
 
+def parse_existing_phase2_data(html_content):
+    """Parse existing PHASE2_KOL_DATA stats to preserve when scrape fails."""
+    existing = {}
+    # Find the PHASE2_KOL_DATA block
+    m = re.search(r'const\s+PHASE2_KOL_DATA\s*=\s*\[([\s\S]*?)\];', html_content)
+    if not m:
+        return existing
+    block = m.group(1)
+    pattern = r"\{\s*username:\s*'([^']+)'.*?followers:\s*(\d+).*?views:\s*(\d+).*?likes:\s*(\d+).*?shares:\s*(\d+).*?comments:\s*(\d+).*?saves:\s*(\d+)"
+    for match in re.finditer(pattern, block):
+        username = match.group(1)
+        existing[username] = {
+            'followers': int(match.group(2)),
+            'views': int(match.group(3)),
+            'likes': int(match.group(4)),
+            'shares': int(match.group(5)),
+            'comments': int(match.group(6)),
+            'saves': int(match.group(7)),
+        }
+    return existing
+
+
 def main():
     if len(sys.argv) < 3:
         print("Usage: python3 scripts/update_dashboard.py scrape_results.json index.html")
@@ -296,18 +404,28 @@ def main():
     json_file = sys.argv[1]
     html_file = sys.argv[2]
 
+    # Load Phase 1 scrape data
     try:
         with open(json_file, 'r') as f:
             scrape_data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         scrape_data = {}
 
+    # Load Phase 2 scrape data
+    p2_json = json_file.replace('.json', '_p2.json')
+    try:
+        with open(p2_json, 'r') as f:
+            p2_scrape_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        p2_scrape_data = {}
+
     with open(html_file, 'r', encoding='utf-8') as f:
         html = f.read()
 
     actual_use = preserve_actual_use(html)
-    existing_data = parse_existing_kol_data(html)
 
+    # ── Phase 1 ──
+    existing_data = parse_existing_kol_data(html)
     entries = []
     for username in KOL_METADATA.keys():
         link = KOL_LINKS.get(username, '')
@@ -315,10 +433,55 @@ def main():
         entries.append(entry)
 
     new_kol_data = "const KOL_DATA = [\n" + ",\n".join(entries) + "\n];"
-
     pattern = r'const\s+KOL_DATA\s*=\s*\[[\s\S]*?\];'
     html = re.sub(pattern, new_kol_data, html, count=1)
 
+    # ── Phase 2 ──
+    p2_existing = parse_existing_phase2_data(html)
+    # Group by category for comments
+    categories = {'ขาไก่': [], 'น่องไก่': [], 'หนังไก่': []}
+    for username in PHASE2_KOL_METADATA.keys():
+        cat = PHASE2_KOL_METADATA[username].get('category', '')
+        if cat in categories:
+            categories[cat].append(username)
+
+    # Build Phase 2 output with category comments (no comma after comments)
+    p2_output_lines = []
+    all_entries_flat = []
+    for cat_name, cat_users in categories.items():
+        p2_output_lines.append(f"  // {cat_name} ({len(cat_users)} KOLs)")
+        for username in cat_users:
+            link = PHASE2_KOL_LINKS.get(username, '')
+            entry = build_kol_entry(
+                username, p2_scrape_data, link, p2_existing,
+                metadata_dict=PHASE2_KOL_METADATA,
+                not_posted_set=PHASE2_NOT_POSTED_KOLS,
+                status_dict=PHASE2_KOL_STATUS
+            )
+            p2_output_lines.append(entry)
+            all_entries_flat.append(username)
+
+    # Join lines: commas only between object entries, not after comments
+    p2_body = ""
+    for i, line in enumerate(p2_output_lines):
+        p2_body += line
+        # Add comma after entry lines if there's another entry coming
+        if line.strip().startswith('{'):
+            # Check if there's another entry after this (skip comments)
+            has_more_entries = False
+            for j in range(i + 1, len(p2_output_lines)):
+                if p2_output_lines[j].strip().startswith('{'):
+                    has_more_entries = True
+                    break
+            if has_more_entries:
+                p2_body += ","
+        p2_body += "\n"
+
+    new_p2_data = "const PHASE2_KOL_DATA = [\n" + p2_body + "];"
+    p2_pattern = r'const\s+PHASE2_KOL_DATA\s*=\s*\[[\s\S]*?\];'
+    html = re.sub(p2_pattern, new_p2_data, html, count=1)
+
+    # Preserve actual use
     html = re.sub(
         r'const\s+CAMPAIGN_ACTUAL_USE_DEFAULT\s*=\s*[\d.]+',
         f'const CAMPAIGN_ACTUAL_USE_DEFAULT = {actual_use}',
@@ -329,8 +492,10 @@ def main():
         f.write(html)
 
     print(f"Dashboard updated: {html_file}")
-    print(f"KOLs updated: {len(entries)}")
-    print(f"Scraped data injected: {len(scrape_data)} KOL(s)")
+    print(f"Phase 1 KOLs updated: {len(entries)}")
+    print(f"Phase 1 scraped: {len(scrape_data)} KOL(s)")
+    print(f"Phase 2 KOLs updated: {len(PHASE2_KOL_METADATA)}")
+    print(f"Phase 2 scraped: {len(p2_scrape_data)} KOL(s)")
     print(f"Actual Use preserved: {actual_use:,.0f}")
 
 
