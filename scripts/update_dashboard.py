@@ -432,8 +432,8 @@ def main():
         entry = build_kol_entry(username, scrape_data, link, existing_data)
         entries.append(entry)
 
-    new_kol_data = "const KOL_DATA = [\n" + ",\n".join(entries) + "\n];"
-    pattern = r'const\s+KOL_DATA\s*=\s*\[[\s\S]*?\];'
+    new_kol_data = "const PHASE1_KOL_DATA = [\n" + ",\n".join(entries) + "\n];"
+    pattern = r'const\s+PHASE1_KOL_DATA\s*=\s*\[[\s\S]*?\];'
     html = re.sub(pattern, new_kol_data, html, count=1)
 
     # ── Phase 2 ──
