@@ -101,7 +101,7 @@
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
     "views": 230400,
-    "likes": 4745,
+    "likes": 4746,
     "shares": 212,
     "comments": 36,
     "saves": 198,
@@ -136,7 +136,7 @@
   },
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
-    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|403",
+    "curl_resolve": "https://www.tiktok.com/@/video/7638965169816751381?_r=1&_d=secCgYIASAHKAESPgo8jjTH%2FMUlPyjcB3MYIIJo%2Bw%2B1Y1icxGBx3GpZOHfhMN5MaCdkc6MvlRw2TbG1gE9cX7Y8lA79DClhHuSxGgA%3D&u_code=dc9a5h6m9m55kl&share_i",
     "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
