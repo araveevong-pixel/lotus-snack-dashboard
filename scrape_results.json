@@ -10,7 +10,7 @@
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 854700,
+    "views": 854800,
     "likes": 807,
     "shares": 28,
     "comments": 6,
@@ -86,7 +86,7 @@
     "likes": 931,
     "shares": 30,
     "comments": 5,
-    "saves": 111,
+    "saves": 110,
     "followers": 0
   },
   "miinez_": {
@@ -100,9 +100,9 @@
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 230600,
-    "likes": 4747,
-    "shares": 212,
+    "views": 230800,
+    "likes": 4750,
+    "shares": 213,
     "comments": 36,
     "saves": 198,
     "followers": 0
@@ -119,7 +119,7 @@
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
-    "likes": 1285,
+    "likes": 1286,
     "shares": 60,
     "comments": 19,
     "saves": 95,
@@ -136,7 +136,7 @@
   },
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
-    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|403",
+    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
     "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
