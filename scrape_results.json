@@ -1,6 +1,6 @@
 {
   "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
+    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639",
     "views": 869100,
     "likes": 824,
     "shares": 14,
@@ -44,17 +44,14 @@
     "saves": 14,
     "followers": 0
   },
-  "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
-    "views": 1900000,
-    "likes": 648,
-    "shares": 25,
-    "comments": 3,
-    "saves": 86,
-    "followers": 0
+  "_debug_fford._.mini": {
+    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
+    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "ledswu": {
-    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
+    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250",
     "views": 269000,
     "likes": 5852,
     "shares": 447,
@@ -99,7 +96,7 @@
     "followers": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
     "views": 231400,
     "likes": 4758,
     "shares": 213,
@@ -108,7 +105,7 @@
     "followers": 0
   },
   "sharkwow.ch": {
-    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
+    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1",
     "views": 2700000,
     "likes": 1565,
     "shares": 83,
