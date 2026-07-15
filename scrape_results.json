@@ -38,7 +38,7 @@
   "tanawatpankaew": {
     "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
     "views": 396700,
-    "likes": 479,
+    "likes": 478,
     "shares": 158,
     "comments": 8,
     "saves": 14,
@@ -56,7 +56,7 @@
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
     "views": 269000,
-    "likes": 5850,
+    "likes": 5851,
     "shares": 447,
     "comments": 19,
     "saves": 156,
@@ -136,14 +136,14 @@
   },
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
-    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|403",
+    "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
     "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
     "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1400000,
-    "likes": 2227,
+    "likes": 2228,
     "shares": 91,
     "comments": 25,
     "saves": 108,
