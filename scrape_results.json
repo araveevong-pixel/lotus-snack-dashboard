@@ -17,11 +17,14 @@
     "saves": 49,
     "followers": 0
   },
-  "_debug_dairyparty": {
-    "orig_url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
-    "curl_resolve": "https://www.tiktok.com/@dairyparty/video/7637753510116740360|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7637753510116740360: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "dairyparty": {
+    "url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
+    "views": 144700,
+    "likes": 297,
+    "shares": 23,
+    "comments": 9,
+    "saves": 12,
+    "followers": 0
   },
   "narongrit11414": {
     "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628",
@@ -51,7 +54,7 @@
     "followers": 0
   },
   "ledswu": {
-    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250",
+    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
     "views": 269000,
     "likes": 5857,
     "shares": 447,
@@ -86,16 +89,19 @@
     "saves": 109,
     "followers": 0
   },
-  "_debug_miinez_": {
-    "orig_url": "https://vt.tiktok.com/ZS9tk5kKo/",
-    "curl_resolve": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "miinez_": {
+    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
+    "views": 97700,
+    "likes": 1593,
+    "shares": 34,
+    "comments": 12,
+    "saves": 79,
+    "followers": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
     "views": 231700,
-    "likes": 4761,
+    "likes": 4764,
     "shares": 213,
     "comments": 37,
     "saves": 197,
@@ -111,24 +117,27 @@
     "followers": 0
   },
   "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772",
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
-    "likes": 1292,
+    "likes": 1293,
     "shares": 60,
     "comments": 19,
     "saves": 95,
     "followers": 0
   },
-  "_debug_gampamao": {
-    "orig_url": "https://vt.tiktok.com/ZS9aSw6mn/",
-    "curl_resolve": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7634892029494971656: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "gampamao": {
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "views": 260400,
+    "likes": 359,
+    "shares": 3,
+    "comments": 5,
+    "saves": 21,
+    "followers": 0
   },
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
@@ -149,10 +158,13 @@
     "saves": 169,
     "followers": 0
   },
-  "_debug_nattienote": {
-    "orig_url": "https://vt.tiktok.com/ZS9vSfoWE/",
-    "curl_resolve": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "nattienote": {
+    "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
+    "views": 2200000,
+    "likes": 3009,
+    "shares": 154,
+    "comments": 18,
+    "saves": 160,
+    "followers": 0
   }
 }
