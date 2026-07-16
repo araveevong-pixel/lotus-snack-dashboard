@@ -1,6 +1,6 @@
 {
   "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639",
+    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
     "views": 869100,
     "likes": 824,
     "shares": 14,
@@ -17,11 +17,14 @@
     "saves": 49,
     "followers": 0
   },
-  "_debug_dairyparty": {
-    "orig_url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
-    "curl_resolve": "https://www.tiktok.com/@dairyparty/video/7637753510116740360|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "dairyparty": {
+    "url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
+    "views": 144700,
+    "likes": 297,
+    "shares": 23,
+    "comments": 9,
+    "saves": 12,
+    "followers": 0
   },
   "narongrit11414": {
     "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
@@ -60,7 +63,7 @@
     "followers": 0
   },
   "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817",
+    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
     "views": 572700,
     "likes": 312,
     "shares": 75,
@@ -96,7 +99,7 @@
     "followers": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
     "views": 231500,
     "likes": 4759,
     "shares": 213,
@@ -105,7 +108,7 @@
     "followers": 0
   },
   "sharkwow.ch": {
-    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1",
+    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
     "views": 2700000,
     "likes": 1565,
     "shares": 83,
@@ -116,14 +119,14 @@
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
-    "likes": 1290,
+    "likes": 1291,
     "shares": 60,
     "comments": 19,
     "saves": 95,
     "followers": 0
   },
   "gampamao": {
-    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656",
     "views": 260400,
     "likes": 359,
     "shares": 3,
@@ -137,11 +140,14 @@
     "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
-  "_debug_taloncamp_sg": {
-    "orig_url": "https://vt.tiktok.com/ZS9bmgMM2/",
-    "curl_resolve": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "taloncamp_sg": {
+    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
+    "views": 1400000,
+    "likes": 2229,
+    "shares": 91,
+    "comments": 25,
+    "saves": 108,
+    "followers": 0
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
