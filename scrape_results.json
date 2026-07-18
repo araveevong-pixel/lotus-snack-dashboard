@@ -17,14 +17,11 @@
     "saves": 49,
     "followers": 0
   },
-  "dairyparty": {
-    "url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
-    "views": 144700,
-    "likes": 297,
-    "shares": 23,
-    "comments": 9,
-    "saves": 12,
-    "followers": 0
+  "_debug_dairyparty": {
+    "orig_url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
+    "curl_resolve": "https://www.tiktok.com/@dairyparty/video/7637753510116740360|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "narongrit11414": {
     "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
@@ -92,7 +89,7 @@
   "miinez_": {
     "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
     "views": 97700,
-    "likes": 1593,
+    "likes": 1594,
     "shares": 34,
     "comments": 12,
     "saves": 79,
@@ -117,7 +114,7 @@
     "followers": 0
   },
   "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772",
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
     "likes": 1297,
     "shares": 60,
@@ -126,7 +123,7 @@
     "followers": 0
   },
   "gampamao": {
-    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656",
     "views": 260400,
     "likes": 359,
     "shares": 3,
@@ -141,7 +138,7 @@
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045",
+    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1400000,
     "likes": 2229,
     "shares": 91,
@@ -150,7 +147,7 @@
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906",
+    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
     "likes": 2435,
     "shares": 291,
@@ -159,9 +156,9 @@
     "followers": 0
   },
   "nattienote": {
-    "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079",
+    "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 2200000,
-    "likes": 3012,
+    "likes": 3013,
     "shares": 154,
     "comments": 18,
     "saves": 159,
