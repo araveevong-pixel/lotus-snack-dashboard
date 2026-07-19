@@ -26,14 +26,11 @@
     "saves": 12,
     "followers": 0
   },
-  "narongrit11414": {
-    "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
-    "views": 364700,
-    "likes": 213,
-    "shares": 2,
-    "comments": 2,
-    "saves": 15,
-    "followers": 0
+  "_debug_narongrit11414": {
+    "orig_url": "https://vt.tiktok.com/ZS9EsqqWw/",
+    "curl_resolve": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "tanawatpankaew": {
     "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
@@ -45,7 +42,7 @@
     "followers": 0
   },
   "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722",
     "views": 1900000,
     "likes": 648,
     "shares": 25,
@@ -56,7 +53,7 @@
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
     "views": 269200,
-    "likes": 5861,
+    "likes": 5862,
     "shares": 447,
     "comments": 19,
     "saves": 157,
@@ -108,7 +105,7 @@
     "followers": 0
   },
   "sharkwow.ch": {
-    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1",
+    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
     "views": 2700000,
     "likes": 1565,
     "shares": 83,
@@ -117,7 +114,7 @@
     "followers": 0
   },
   "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772",
     "views": 1200000,
     "likes": 1299,
     "shares": 60,
@@ -140,19 +137,16 @@
     "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
-  "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
-    "views": 1400000,
-    "likes": 2229,
-    "shares": 91,
-    "comments": 25,
-    "saves": 107,
-    "followers": 0
+  "_debug_taloncamp_sg": {
+    "orig_url": "https://vt.tiktok.com/ZS9bmgMM2/",
+    "curl_resolve": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
-    "likes": 2439,
+    "likes": 2440,
     "shares": 291,
     "comments": 29,
     "saves": 170,
