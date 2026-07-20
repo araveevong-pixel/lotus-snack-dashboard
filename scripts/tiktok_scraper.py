@@ -77,6 +77,13 @@ PHASE2_KOL_LINKS = {
     "enjoyeatingclub": "https://vt.tiktok.com/ZSCujUmoF/",
     "ssaintst": "https://vt.tiktok.com/ZSCmwDGth/",
     "stampginra": "https://vt.tiktok.com/ZSCQT9qpH/",
+    "mew_natheera": "https://vt.tiktok.com/ZSCweqNpu/",
+    "faymily_": "https://vt.tiktok.com/ZSXkSk17q/",
+    "mild.prapaipan": "https://vt.tiktok.com/ZSCKKRbyt/",
+    "mhingkualoak": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "thintomorrow": "https://vt.tiktok.com/ZSXDt25E6/",
+    "farbeer69": "https://vt.tiktok.com/ZSXxqjvra/",
+    "ninkkieee": "https://vt.tiktok.com/ZSCoSeMU8/",
 }
 
 
