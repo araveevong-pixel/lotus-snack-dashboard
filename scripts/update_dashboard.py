@@ -280,13 +280,17 @@ PHASE2_KOL_LINKS = {
     "enjoyeatingclub": "https://vt.tiktok.com/ZSCujUmoF/",
     "ssaintst": "https://vt.tiktok.com/ZSCmwDGth/",
     "stampginra": "https://vt.tiktok.com/ZSCQT9qpH/",
+    "mew_natheera": "https://vt.tiktok.com/ZSCweqNpu/",
+    "faymily_": "https://vt.tiktok.com/ZSXkSk17q/",
+    "mild.prapaipan": "https://vt.tiktok.com/ZSCKKRbyt/",
+    "mhingkualoak": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "thintomorrow": "https://vt.tiktok.com/ZSXDt25E6/",
+    "farbeer69": "https://vt.tiktok.com/ZSXxqjvra/",
+    "ninkkieee": "https://vt.tiktok.com/ZSCoSeMU8/",
 }
 
 # 7 KOLs ที่ยังไม่โพสต์ Phase 2
-PHASE2_NOT_POSTED_KOLS = {
-    "mew_natheera", "faymily_", "mild.prapaipan",
-    "mhingkualoak", "thintomorrow", "farbeer69", "ninkkieee"
-}
+PHASE2_NOT_POSTED_KOLS = set()
 
 PHASE2_KOL_STATUS = {k: "โพสต์แล้ว" for k in PHASE2_KOL_LINKS}
 PHASE2_KOL_STATUS.update({k: "รอโพสต์" for k in PHASE2_NOT_POSTED_KOLS})
