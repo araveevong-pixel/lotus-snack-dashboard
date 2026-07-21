@@ -1,12 +1,9 @@
 {
-  "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
-    "views": 869100,
-    "likes": 824,
-    "shares": 14,
-    "comments": 3,
-    "saves": 54,
-    "followers": 0
+  "_debug_markc.boardgame": {
+    "orig_url": "https://vt.tiktok.com/ZS9aPr8MX/",
+    "curl_resolve": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "minkmories": {
     "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
@@ -96,7 +93,7 @@
     "followers": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
     "views": 232300,
     "likes": 4778,
     "shares": 213,
@@ -114,7 +111,7 @@
     "followers": 0
   },
   "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772",
+    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
     "likes": 1301,
     "shares": 60,
@@ -149,7 +146,7 @@
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
-    "likes": 2445,
+    "likes": 2446,
     "shares": 291,
     "comments": 29,
     "saves": 170,
