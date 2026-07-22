@@ -1,6 +1,6 @@
 {
   "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639",
+    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
     "views": 869100,
     "likes": 824,
     "shares": 14,
@@ -9,7 +9,7 @@
     "followers": 0
   },
   "minkmories": {
-    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786",
+    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
     "views": 854800,
     "likes": 807,
     "shares": 28,
@@ -36,7 +36,7 @@
     "followers": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
     "views": 396800,
     "likes": 478,
     "shares": 158,
@@ -44,20 +44,20 @@
     "saves": 14,
     "followers": 0
   },
-  "_debug_fford._.mini": {
-    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|200",
+  "fford._.mini": {
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722",
+    "views": 1900000,
+    "likes": 647,
+    "shares": 25,
+    "comments": 3,
+    "saves": 86,
+    "followers": 0
+  },
+  "_debug_ledswu": {
+    "orig_url": "https://vt.tiktok.com/ZS9G9rGKX/",
+    "curl_resolve": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr|200",
     "ytdlp_stderr": "",
     "ytdlp_returncode": 0
-  },
-  "ledswu": {
-    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 269400,
-    "likes": 5871,
-    "shares": 447,
-    "comments": 19,
-    "saves": 161,
-    "followers": 0
   },
   "debuam012": {
     "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
@@ -69,7 +69,7 @@
     "followers": 0
   },
   "saruanly": {
-    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740",
+    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
     "views": 366300,
     "likes": 1365,
     "shares": 36,
@@ -91,14 +91,14 @@
     "views": 97800,
     "likes": 1595,
     "shares": 34,
-    "comments": 12,
+    "comments": 13,
     "saves": 79,
     "followers": 0
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
     "views": 232400,
-    "likes": 4778,
+    "likes": 4779,
     "shares": 213,
     "comments": 37,
     "saves": 199,
@@ -116,7 +116,7 @@
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
-    "likes": 1302,
+    "likes": 1304,
     "shares": 60,
     "comments": 19,
     "saves": 95,
@@ -134,11 +134,11 @@
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045",
+    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1400000,
     "likes": 2231,
     "shares": 91,
@@ -147,7 +147,7 @@
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906",
+    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
     "likes": 2447,
     "shares": 291,
