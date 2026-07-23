@@ -1,38 +1,32 @@
 {
-  "nurse.enjoyea": {
-    "url": "https://www.tiktok.com/@nurse.enjoyeat/video/7658264392198294805?_r=1&_t=ZS-97iw6QlKI0u",
-    "views": 116600,
-    "likes": 1775,
-    "shares": 100,
-    "comments": 223,
-    "saves": 182,
-    "followers": 0
+  "_debug_nurse.enjoyea": {
+    "orig_url": "https://vt.tiktok.com/ZSCXV8bxS/",
+    "curl_resolve": "https://www.tiktok.com/@nurse.enjoyeat/video/7658264392198294805?_r=1&_t=ZS-97iw6QlKI0u|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7658264392198294805: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "100lowteens": {
     "url": "https://www.tiktok.com/@100lowteens/video/7657404036861414674?_r=1&_t=ZS-97ezq3t13pc",
-    "views": 583400,
-    "likes": 745,
+    "views": 596700,
+    "likes": 752,
     "shares": 31,
     "comments": 7,
-    "saves": 81,
+    "saves": 82,
     "followers": 0
   },
-  "joinjoy89": {
-    "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
-    "views": 1200000,
-    "likes": 963,
-    "shares": 156,
-    "comments": 6,
-    "saves": 85,
-    "followers": 0
+  "_debug_joinjoy89": {
+    "orig_url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
+    "curl_resolve": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "sristories.official": {
     "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
-    "views": 1000000,
-    "likes": 940,
+    "views": 1100000,
+    "likes": 957,
     "shares": 29,
     "comments": 6,
-    "saves": 83,
+    "saves": 84,
     "followers": 0
   },
   "mayme_711": {
@@ -46,25 +40,22 @@
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
-    "views": 617600,
+    "views": 617800,
     "likes": 2854,
     "shares": 303,
     "comments": 69,
     "saves": 323,
     "followers": 0
   },
-  "ningninkka": {
-    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393",
-    "views": 1000000,
-    "likes": 969,
-    "shares": 52,
-    "comments": 16,
-    "saves": 103,
-    "followers": 0
+  "_debug_ningninkka": {
+    "orig_url": "https://vt.tiktok.com/ZSCmc9UY2/",
+    "curl_resolve": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657493488304475393: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "pizzaplazaa": {
     "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
-    "views": 65400,
+    "views": 65500,
     "likes": 495,
     "shares": 10,
     "comments": 22,
@@ -73,17 +64,17 @@
   },
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
-    "views": 127000,
-    "likes": 444,
-    "shares": 34,
+    "views": 127400,
+    "likes": 446,
+    "shares": 35,
     "comments": 6,
-    "saves": 22,
+    "saves": 23,
     "followers": 0
   },
   "bolongkinn": {
-    "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB",
-    "views": 467100,
-    "likes": 1820,
+    "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284",
+    "views": 467900,
+    "likes": 1826,
     "shares": 68,
     "comments": 19,
     "saves": 96,
@@ -91,7 +82,7 @@
   },
   "haruyda": {
     "url": "https://www.tiktok.com/@haruyda/video/7657500531279006996?_r=1&_t=ZS-97fRM0DeHgG",
-    "views": 344300,
+    "views": 344500,
     "likes": 16100,
     "shares": 468,
     "comments": 82,
@@ -107,19 +98,16 @@
     "saves": 7,
     "followers": 0
   },
-  "chengandrock": {
-    "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864",
-    "views": 609800,
-    "likes": 1117,
-    "shares": 100,
-    "comments": 24,
-    "saves": 122,
-    "followers": 0
+  "_debug_chengandrock": {
+    "orig_url": "https://vt.tiktok.com/ZSCm7cu3t/",
+    "curl_resolve": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gindaieek": {
     "url": "https://www.tiktok.com/@gindaieek/video/7657529190945803541?_r=1&_t=ZS-97fZ7p0Mmbk",
     "views": 213700,
-    "likes": 4064,
+    "likes": 4066,
     "shares": 614,
     "comments": 27,
     "saves": 185,
@@ -127,7 +115,7 @@
   },
   "googidd": {
     "url": "https://www.tiktok.com/@googidd/video/7657438555177848084?_r=1&_t=ZS-97fLzN8yCoy",
-    "views": 930400,
+    "views": 931900,
     "likes": 927,
     "shares": 47,
     "comments": 16,
@@ -137,16 +125,16 @@
   "pankpanq": {
     "url": "https://www.tiktok.com/@pankpanq/video/7658274575548943624?_r=1&_t=ZS-97iyite2tdf",
     "views": 1100000,
-    "likes": 408,
+    "likes": 428,
     "shares": 52,
     "comments": 10,
-    "saves": 61,
+    "saves": 66,
     "followers": 0
   },
   "whatpalaa": {
     "url": "https://www.tiktok.com/@whatpalaa/video/7657575571228003605?_r=1&_t=ZS-97ggea8kR4X",
     "views": 1200000,
-    "likes": 508,
+    "likes": 527,
     "shares": 24,
     "comments": 2,
     "saves": 51,
@@ -154,25 +142,22 @@
   },
   "sweettart.tt": {
     "url": "https://www.tiktok.com/@sweettart.tt/video/7657875379192974610?_r=1&_t=ZS-97h9Sp2FN3q",
-    "views": 557200,
-    "likes": 462,
+    "views": 557600,
+    "likes": 463,
     "shares": 19,
     "comments": 29,
     "saves": 62,
     "followers": 0
   },
-  "11.mn.84": {
-    "url": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2",
-    "views": 490500,
-    "likes": 319,
-    "shares": 4,
-    "comments": 12,
-    "saves": 24,
-    "followers": 0
+  "_debug_11.mn.84": {
+    "orig_url": "https://vt.tiktok.com/ZSCvyMdnU/",
+    "curl_resolve": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "palmmookangrang": {
     "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
-    "views": 268700,
+    "views": 268800,
     "likes": 3101,
     "shares": 77,
     "comments": 12,
@@ -180,7 +165,7 @@
     "followers": 0
   },
   "enjoyeatingclub": {
-    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32",
+    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204",
     "views": 16000,
     "likes": 587,
     "shares": 38,
@@ -198,9 +183,9 @@
     "followers": 0
   },
   "stampginra": {
-    "url": "https://www.tiktok.com/@stampginrai/video/7657506652282801429?_r=1&_t=ZS-97iBc0zq1K8",
-    "views": 796800,
-    "likes": 846,
+    "url": "https://www.tiktok.com/@stampginrai/video/7657506652282801429",
+    "views": 801600,
+    "likes": 851,
     "shares": 49,
     "comments": 3,
     "saves": 64,
@@ -208,7 +193,7 @@
   },
   "mew_natheera": {
     "url": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661?_r=1&_t=ZS-97rTDctEMui",
-    "views": 56700,
+    "views": 56800,
     "likes": 529,
     "shares": 14,
     "comments": 23,
@@ -217,34 +202,31 @@
   },
   "faymily_": {
     "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
-    "views": 207500,
-    "likes": 601,
+    "views": 207700,
+    "likes": 603,
     "shares": 62,
     "comments": 14,
-    "saves": 64,
+    "saves": 63,
     "followers": 0
   },
   "mild.prapaipan": {
     "url": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC",
-    "views": 13500,
-    "likes": 255,
+    "views": 13600,
+    "likes": 257,
     "shares": 18,
     "comments": 8,
     "saves": 15,
     "followers": 0
   },
-  "mhingkualoak": {
-    "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047",
-    "views": 581200,
-    "likes": 497,
-    "shares": 30,
-    "comments": 6,
-    "saves": 35,
-    "followers": 0
+  "_debug_mhingkualoak": {
+    "orig_url": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "curl_resolve": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "thintomorrow": {
     "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837",
-    "views": 16300,
+    "views": 17200,
     "likes": 28,
     "shares": 0,
     "comments": 0,
@@ -253,20 +235,17 @@
   },
   "farbeer69": {
     "url": "https://www.tiktok.com/@farbeer69/video/7660843638636973333?_r=1&_t=ZS-98B2i6kC992",
-    "views": 567800,
-    "likes": 256,
+    "views": 572900,
+    "likes": 258,
     "shares": 11,
     "comments": 4,
     "saves": 19,
     "followers": 0
   },
-  "ninkkieee": {
-    "url": "https://www.tiktok.com/@ninkkieee/video/7660498329041718535?_r=1&_t=ZS-97tAGfeH9bV",
-    "views": 9402,
-    "likes": 16,
-    "shares": 0,
-    "comments": 0,
-    "saves": 0,
-    "followers": 0
+  "_debug_ninkkieee": {
+    "orig_url": "https://vt.tiktok.com/ZSCoSeMU8/",
+    "curl_resolve": "https://www.tiktok.com/@ninkkieee/video/7660498329041718535?_r=1&_t=ZS-97tAGfeH9bV|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   }
 }
