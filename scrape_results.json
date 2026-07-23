@@ -1,6 +1,6 @@
 {
   "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639",
+    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
     "views": 869100,
     "likes": 824,
     "shares": 14,
@@ -36,7 +36,7 @@
     "followers": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
     "views": 396800,
     "likes": 478,
     "shares": 158,
@@ -108,7 +108,7 @@
     "followers": 0
   },
   "sharkwow.ch": {
-    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
+    "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1",
     "views": 2700000,
     "likes": 1566,
     "shares": 83,
@@ -126,7 +126,7 @@
     "followers": 0
   },
   "gampamao": {
-    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
+    "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656",
     "views": 260500,
     "likes": 361,
     "shares": 3,
@@ -137,13 +137,13 @@
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
+    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045",
     "views": 1400000,
-    "likes": 2231,
+    "likes": 2230,
     "shares": 91,
     "comments": 25,
     "saves": 107,
@@ -152,7 +152,7 @@
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
-    "likes": 2447,
+    "likes": 2448,
     "shares": 291,
     "comments": 29,
     "saves": 170,
