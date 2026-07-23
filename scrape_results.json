@@ -1,6 +1,6 @@
 {
   "markc.boardgame": {
-    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639?_r=1&_t=ZS-95zxAZVHtPL",
+    "url": "https://www.tiktok.com/@markc.boardgame/video/7634827620991077639",
     "views": 869100,
     "likes": 824,
     "shares": 14,
@@ -36,7 +36,7 @@
     "followers": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
     "views": 396800,
     "likes": 478,
     "shares": 158,
@@ -80,11 +80,14 @@
     "saves": 41,
     "followers": 0
   },
-  "_debug_tuajeed.office": {
-    "orig_url": "https://vt.tiktok.com/ZSxjfekwg/",
-    "curl_resolve": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "tuajeed.office": {
+    "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
+    "views": 3400000,
+    "likes": 931,
+    "shares": 30,
+    "comments": 5,
+    "saves": 109,
+    "followers": 0
   },
   "miinez_": {
     "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
@@ -119,7 +122,7 @@
     "likes": 1306,
     "shares": 60,
     "comments": 19,
-    "saves": 95,
+    "saves": 94,
     "followers": 0
   },
   "gampamao": {
@@ -138,7 +141,7 @@
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045",
+    "url": "https://www.tiktok.com/@taloncamp_sg/video/7636770419537825045?_r=1&_t=ZS-968Vnh5Oq19",
     "views": 1400000,
     "likes": 2231,
     "shares": 91,
