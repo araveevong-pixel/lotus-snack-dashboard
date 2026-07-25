@@ -55,15 +55,15 @@
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
-    "views": 269600,
-    "likes": 5880,
+    "views": 269700,
+    "likes": 5881,
     "shares": 447,
     "comments": 19,
     "saves": 161,
     "followers": 0
   },
   "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817",
+    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
     "views": 572800,
     "likes": 312,
     "shares": 75,
@@ -99,7 +99,7 @@
     "followers": 0
   },
   "gonsalosol": {
-    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911",
+    "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
     "views": 232600,
     "likes": 4782,
     "shares": 213,
@@ -137,7 +137,7 @@
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
@@ -150,7 +150,7 @@
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906",
+    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
     "likes": 2463,
     "shares": 291,
@@ -161,7 +161,7 @@
   "nattienote": {
     "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
     "views": 2200000,
-    "likes": 3021,
+    "likes": 3022,
     "shares": 154,
     "comments": 18,
     "saves": 159,
