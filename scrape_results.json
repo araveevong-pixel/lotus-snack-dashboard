@@ -8,14 +8,11 @@
     "saves": 54,
     "followers": 0
   },
-  "minkmories": {
-    "url": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc",
-    "views": 854800,
-    "likes": 806,
-    "shares": 28,
-    "comments": 6,
-    "saves": 49,
-    "followers": 0
+  "_debug_minkmories": {
+    "orig_url": "https://vt.tiktok.com/ZS9bLxokr/",
+    "curl_resolve": "https://www.tiktok.com/@minkmories/video/7636726243588672786?_r=1&_t=ZS-968I9VVVhCc|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "dairyparty": {
     "url": "https://www.tiktok.com/@dairyparty/video/7637753510116740360",
@@ -36,7 +33,7 @@
     "followers": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
     "views": 396800,
     "likes": 479,
     "shares": 158,
@@ -45,7 +42,7 @@
     "followers": 0
   },
   "fford._.mini": {
-    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722",
     "views": 1900000,
     "likes": 647,
     "shares": 25,
@@ -56,14 +53,14 @@
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
     "views": 270000,
-    "likes": 5893,
+    "likes": 5894,
     "shares": 447,
     "comments": 19,
     "saves": 164,
     "followers": 0
   },
   "debuam012": {
-    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817?_r=1&_t=ZS-968Jby8kMIG",
+    "url": "https://www.tiktok.com/@debuam012/video/7636730773118274817",
     "views": 572800,
     "likes": 312,
     "shares": 75,
@@ -137,7 +134,7 @@
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7638965169816751381: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
@@ -150,9 +147,9 @@
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
+    "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906",
     "views": 1500000,
-    "likes": 2483,
+    "likes": 2484,
     "shares": 291,
     "comments": 29,
     "saves": 172,
