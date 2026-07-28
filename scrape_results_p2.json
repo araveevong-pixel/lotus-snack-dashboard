@@ -20,14 +20,17 @@
   "_debug_sristories.official": {
     "orig_url": "https://vt.tiktok.com/ZSCmW9rtB/",
     "curl_resolve": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657407456405966101: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
-  "_debug_mayme_711": {
-    "orig_url": "https://vt.tiktok.com/ZSCxaqXx1/",
-    "curl_resolve": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657901373178105095: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "mayme_711": {
+    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095",
+    "views": 81600,
+    "likes": 192,
+    "shares": 8,
+    "comments": 8,
+    "saves": 31,
+    "followers": 0
   },
   "_debug_tima.chan": {
     "orig_url": "https://vt.tiktok.com/ZSCuefFQf/",
@@ -35,29 +38,38 @@
     "ytdlp_stderr": "ERROR: [TikTok] 7657510313608138005: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "_debug_ningninkka": {
-    "orig_url": "https://vt.tiktok.com/ZSCmc9UY2/",
-    "curl_resolve": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657493488304475393: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "ningninkka": {
+    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0",
+    "views": 1400000,
+    "likes": 1160,
+    "shares": 77,
+    "comments": 16,
+    "saves": 120,
+    "followers": 0
   },
   "_debug_pizzaplazaa": {
     "orig_url": "https://vt.tiktok.com/ZSCuJN1pr/",
     "curl_resolve": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657507639106096405: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
-  "_debug_i.prim": {
-    "orig_url": "https://vt.tiktok.com/ZSCxGy9Ds/",
-    "curl_resolve": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657923448685071624: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "i.prim": {
+    "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
+    "views": 304600,
+    "likes": 606,
+    "shares": 38,
+    "comments": 6,
+    "saves": 29,
+    "followers": 0
   },
-  "_debug_bolongkinn": {
-    "orig_url": "https://vt.tiktok.com/ZSCxNLp27/",
-    "curl_resolve": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657832848887467284: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "bolongkinn": {
+    "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284",
+    "views": 555200,
+    "likes": 1984,
+    "shares": 84,
+    "comments": 19,
+    "saves": 102,
+    "followers": 0
   },
   "_debug_haruyda": {
     "orig_url": "https://vt.tiktok.com/ZSCmK3DTB/",
@@ -104,35 +116,26 @@
   "_debug_sweettart.tt": {
     "orig_url": "https://vt.tiktok.com/ZSCxj7s87/",
     "curl_resolve": "https://www.tiktok.com/@sweettart.tt/video/7657875379192974610?_r=1&_t=ZS-97h9Sp2FN3q|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657875379192974610: Unable to extract universal data for rehydration; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657875379192974610: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "11.mn.84": {
-    "url": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2",
-    "views": 890900,
-    "likes": 471,
-    "shares": 16,
-    "comments": 13,
-    "saves": 54,
-    "followers": 0
+  "_debug_11.mn.84": {
+    "orig_url": "https://vt.tiktok.com/ZSCvyMdnU/",
+    "curl_resolve": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7659730997721746708: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "palmmookangrang": {
-    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
-    "views": 296000,
-    "likes": 3126,
-    "shares": 79,
-    "comments": 9,
-    "saves": 195,
-    "followers": 0
+  "_debug_palmmookangrang": {
+    "orig_url": "https://vt.tiktok.com/ZSCuDkWrY/",
+    "curl_resolve": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657476638409624852: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "enjoyeatingclub": {
-    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32",
-    "views": 75300,
-    "likes": 621,
-    "shares": 39,
-    "comments": 4,
-    "saves": 41,
-    "followers": 0
+  "_debug_enjoyeatingclub": {
+    "orig_url": "https://vt.tiktok.com/ZSCujUmoF/",
+    "curl_resolve": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657522946184957204: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "_debug_ssaintst": {
     "orig_url": "https://vt.tiktok.com/ZSCmwDGth/",
@@ -176,11 +179,14 @@
     "ytdlp_stderr": "ERROR: [TikTok] 7663035286779202837: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "_debug_farbeer69": {
-    "orig_url": "https://vt.tiktok.com/ZSXxqjvra/",
-    "curl_resolve": "https://www.tiktok.com/@farbeer69/video/7660843638636973333?_r=1&_t=ZS-98B2i6kC992|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7660843638636973333: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "farbeer69": {
+    "url": "https://www.tiktok.com/@farbeer69/video/7660843638636973333",
+    "views": 1800000,
+    "likes": 697,
+    "shares": 25,
+    "comments": 7,
+    "saves": 63,
+    "followers": 0
   },
   "_debug_ninkkieee": {
     "orig_url": "https://vt.tiktok.com/ZSCoSeMU8/",
