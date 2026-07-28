@@ -27,7 +27,7 @@
     "followers": 0
   },
   "narongrit11414": {
-    "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628",
+    "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
     "views": 365000,
     "likes": 213,
     "shares": 2,
@@ -72,7 +72,7 @@
     "followers": 0
   },
   "saruanly": {
-    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
+    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740",
     "views": 366300,
     "likes": 1366,
     "shares": 36,
@@ -90,7 +90,7 @@
     "followers": 0
   },
   "miinez_": {
-    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
+    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932",
     "views": 98000,
     "likes": 1600,
     "shares": 34,
@@ -116,14 +116,11 @@
     "saves": 92,
     "followers": 0
   },
-  "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
-    "views": 1200000,
-    "likes": 1316,
-    "shares": 60,
-    "comments": 19,
-    "saves": 99,
-    "followers": 0
+  "_debug_witbenmoreallright": {
+    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
+    "curl_resolve": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@gampamao/video/7634892029494971656?_r=1&_t=ZS-95ztM0b5HRS",
