@@ -31,7 +31,7 @@
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
-    "views": 661000,
+    "views": 661300,
     "likes": 2931,
     "shares": 306,
     "comments": 69,
@@ -39,7 +39,7 @@
     "followers": 0
   },
   "ningninkka": {
-    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393",
+    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0",
     "views": 1400000,
     "likes": 1169,
     "shares": 78,
@@ -47,41 +47,59 @@
     "saves": 124,
     "followers": 0
   },
-  "_debug_pizzaplazaa": {
-    "orig_url": "https://vt.tiktok.com/ZSCuJN1pr/",
-    "curl_resolve": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657507639106096405: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "pizzaplazaa": {
+    "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
+    "views": 70900,
+    "likes": 512,
+    "shares": 10,
+    "comments": 24,
+    "saves": 33,
+    "followers": 0
   },
-  "_debug_i.prim": {
-    "orig_url": "https://vt.tiktok.com/ZSCxGy9Ds/",
-    "curl_resolve": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657923448685071624: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "i.prim": {
+    "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
+    "views": 323500,
+    "likes": 631,
+    "shares": 42,
+    "comments": 6,
+    "saves": 31,
+    "followers": 0
   },
-  "_debug_bolongkinn": {
-    "orig_url": "https://vt.tiktok.com/ZSCxNLp27/",
-    "curl_resolve": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657832848887467284: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "bolongkinn": {
+    "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB",
+    "views": 562200,
+    "likes": 1997,
+    "shares": 84,
+    "comments": 19,
+    "saves": 102,
+    "followers": 0
   },
-  "_debug_haruyda": {
-    "orig_url": "https://vt.tiktok.com/ZSCmK3DTB/",
-    "curl_resolve": "https://www.tiktok.com/@haruyda/video/7657500531279006996?_r=1&_t=ZS-97fRM0DeHgG|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657500531279006996: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "haruyda": {
+    "url": "https://www.tiktok.com/@haruyda/video/7657500531279006996",
+    "views": 362000,
+    "likes": 16200,
+    "shares": 473,
+    "comments": 83,
+    "saves": 821,
+    "followers": 0
   },
-  "_debug_plaifahhahaha": {
-    "orig_url": "https://vt.tiktok.com/ZSCuj1FVw/",
-    "curl_resolve": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657497990008999175: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "plaifahhahaha": {
+    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175",
+    "views": 20100,
+    "likes": 102,
+    "shares": 12,
+    "comments": 5,
+    "saves": 8,
+    "followers": 0
   },
-  "_debug_chengandrock": {
-    "orig_url": "https://vt.tiktok.com/ZSCm7cu3t/",
-    "curl_resolve": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657440774291737864: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "chengandrock": {
+    "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864",
+    "views": 891300,
+    "likes": 1287,
+    "shares": 102,
+    "comments": 24,
+    "saves": 131,
+    "followers": 0
   },
   "_debug_gindaieek": {
     "orig_url": "https://vt.tiktok.com/ZSCuMCC3W/",
