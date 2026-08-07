@@ -35,14 +35,11 @@
     "saves": 175,
     "followers": 0
   },
-  "mayme_711": {
-    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI",
-    "views": 86300,
-    "likes": 202,
-    "shares": 8,
-    "comments": 8,
-    "saves": 32,
-    "followers": 0
+  "_debug_mayme_711": {
+    "orig_url": "https://vt.tiktok.com/ZSCxaqXx1/",
+    "curl_resolve": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657901373178105095: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
@@ -59,26 +56,23 @@
     "likes": 1250,
     "shares": 78,
     "comments": 16,
-    "saves": 128,
+    "saves": 127,
     "followers": 0
   },
   "pizzaplazaa": {
     "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
-    "views": 75400,
+    "views": 75500,
     "likes": 537,
     "shares": 12,
     "comments": 25,
     "saves": 36,
     "followers": 0
   },
-  "i.prim": {
-    "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
-    "views": 382100,
-    "likes": 702,
-    "shares": 43,
-    "comments": 6,
-    "saves": 39,
-    "followers": 0
+  "_debug_i.prim": {
+    "orig_url": "https://vt.tiktok.com/ZSCxGy9Ds/",
+    "curl_resolve": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657923448685071624: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "bolongkinn": {
     "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB",
@@ -91,7 +85,7 @@
   },
   "haruyda": {
     "url": "https://www.tiktok.com/@haruyda/video/7657500531279006996?_r=1&_t=ZS-97fRM0DeHgG",
-    "views": 379400,
+    "views": 379500,
     "likes": 16300,
     "shares": 474,
     "comments": 85,
@@ -164,7 +158,7 @@
   "11.mn.84": {
     "url": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2",
     "views": 1200000,
-    "likes": 598,
+    "likes": 599,
     "shares": 26,
     "comments": 14,
     "saves": 70,
@@ -218,7 +212,7 @@
   "faymily_": {
     "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
     "views": 569700,
-    "likes": 1090,
+    "likes": 1091,
     "shares": 129,
     "comments": 15,
     "saves": 111,
@@ -233,14 +227,11 @@
     "saves": 27,
     "followers": 0
   },
-  "mhingkualoak": {
-    "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
-    "views": 917100,
-    "likes": 764,
-    "shares": 37,
-    "comments": 6,
-    "saves": 52,
-    "followers": 0
+  "_debug_mhingkualoak": {
+    "orig_url": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "curl_resolve": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660848880002551047: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "thintomorrow": {
     "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO",
