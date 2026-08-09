@@ -35,14 +35,11 @@
     "saves": 15,
     "followers": 0
   },
-  "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
-    "views": 396800,
-    "likes": 479,
-    "shares": 158,
-    "comments": 8,
-    "saves": 14,
-    "followers": 0
+  "_debug_tanawatpankaew": {
+    "orig_url": "https://vt.tiktok.com/ZS9KqJggx/",
+    "curl_resolve": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7638957114957909266: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "fford._.mini": {
     "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
@@ -71,14 +68,11 @@
     "saves": 28,
     "followers": 0
   },
-  "saruanly": {
-    "url": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx",
-    "views": 366300,
-    "likes": 1366,
-    "shares": 36,
-    "comments": 12,
-    "saves": 41,
-    "followers": 0
+  "_debug_saruanly": {
+    "orig_url": "https://vt.tiktok.com/ZS9a2kjxW/",
+    "curl_resolve": "https://www.tiktok.com/@saruanly/video/7634869188200254740?_r=1&_t=ZS-95znXxlnSFx|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7634869188200254740: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "tuajeed.office": {
     "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
@@ -100,8 +94,8 @@
   },
   "gonsalosol": {
     "url": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT",
-    "views": 242500,
-    "likes": 4998,
+    "views": 242600,
+    "likes": 5000,
     "shares": 214,
     "comments": 38,
     "saves": 219,
@@ -119,7 +113,7 @@
   "witbenmoreallright": {
     "url": "https://www.tiktok.com/@witbenmoreallright/video/7634892988916714772?_r=1&_t=ZS-95ztotYcikT",
     "views": 1200000,
-    "likes": 1343,
+    "likes": 1344,
     "shares": 64,
     "comments": 19,
     "saves": 102,
@@ -152,7 +146,7 @@
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
-    "likes": 2521,
+    "likes": 2522,
     "shares": 293,
     "comments": 29,
     "saves": 175,
