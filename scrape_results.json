@@ -44,11 +44,14 @@
     "saves": 14,
     "followers": 0
   },
-  "_debug_fford._.mini": {
-    "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "curl_resolve": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
-    "ytdlp_returncode": 0
+  "fford._.mini": {
+    "url": "https://www.tiktok.com/@fford._.mini/video/7636740621125864722?_r=1&_t=ZS-968McJ9twLH",
+    "views": 1900000,
+    "likes": 647,
+    "shares": 25,
+    "comments": 3,
+    "saves": 82,
+    "followers": 0
   },
   "ledswu": {
     "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
@@ -134,7 +137,7 @@
   "_debug_tatatomang": {
     "orig_url": "https://vt.tiktok.com/ZS9KbaK3n/",
     "curl_resolve": "https://www.tiktok.com/@tatatomang/video/7638965169816751381?_r=1&_t=ZS-96IXYAELVRN|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7638965169816751381: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7638965169816751381: Your IP address is blocked from accessing this post\n",
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
@@ -149,7 +152,7 @@
   "sarun_kritaterakul": {
     "url": "https://www.tiktok.com/@sarun_kritaterakul/video/7634817786115525906?_r=1&_t=ZS-95zsZtd6yKi",
     "views": 1500000,
-    "likes": 2527,
+    "likes": 2528,
     "shares": 293,
     "comments": 29,
     "saves": 176,

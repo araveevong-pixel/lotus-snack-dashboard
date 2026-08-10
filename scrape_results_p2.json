@@ -53,11 +53,14 @@
     "saves": 350,
     "followers": 0
   },
-  "_debug_ningninkka": {
-    "orig_url": "https://vt.tiktok.com/ZSCmc9UY2/",
-    "curl_resolve": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657493488304475393: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
-    "ytdlp_returncode": 1
+  "ningninkka": {
+    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0",
+    "views": 1500000,
+    "likes": 1253,
+    "shares": 78,
+    "comments": 16,
+    "saves": 127,
+    "followers": 0
   },
   "pizzaplazaa": {
     "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
@@ -168,7 +171,7 @@
     "followers": 0
   },
   "palmmookangrang": {
-    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852",
+    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
     "views": 319400,
     "likes": 3165,
     "shares": 91,
