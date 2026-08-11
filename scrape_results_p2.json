@@ -2,10 +2,10 @@
   "nurse.enjoyea": {
     "url": "https://www.tiktok.com/@nurse.enjoyeat/video/7658264392198294805?_r=1&_t=ZS-97iw6QlKI0u",
     "views": 149500,
-    "likes": 1948,
+    "likes": 1950,
     "shares": 104,
     "comments": 313,
-    "saves": 207,
+    "saves": 208,
     "followers": 0
   },
   "100lowteens": {
@@ -47,7 +47,7 @@
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
     "views": 688000,
-    "likes": 3033,
+    "likes": 3034,
     "shares": 317,
     "comments": 71,
     "saves": 350,
@@ -173,7 +173,7 @@
   "palmmookangrang": {
     "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
     "views": 319400,
-    "likes": 3165,
+    "likes": 3166,
     "shares": 91,
     "comments": 9,
     "saves": 203,
@@ -217,8 +217,8 @@
   },
   "faymily_": {
     "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
-    "views": 578400,
-    "likes": 1176,
+    "views": 578500,
+    "likes": 1177,
     "shares": 130,
     "comments": 17,
     "saves": 119,
@@ -233,14 +233,11 @@
     "saves": 30,
     "followers": 0
   },
-  "mhingkualoak": {
-    "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
-    "views": 918900,
-    "likes": 799,
-    "shares": 37,
-    "comments": 6,
-    "saves": 54,
-    "followers": 0
+  "_debug_mhingkualoak": {
+    "orig_url": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "curl_resolve": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660848880002551047: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "thintomorrow": {
     "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO",
