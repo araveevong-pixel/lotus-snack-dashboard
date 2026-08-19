@@ -95,17 +95,14 @@
     "likes": 16400,
     "shares": 477,
     "comments": 87,
-    "saves": 841,
+    "saves": 842,
     "followers": 0
   },
-  "plaifahhahaha": {
-    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW",
-    "views": 661500,
-    "likes": 699,
-    "shares": 80,
-    "comments": 6,
-    "saves": 52,
-    "followers": 0
+  "_debug_plaifahhahaha": {
+    "orig_url": "https://vt.tiktok.com/ZSCuj1FVw/",
+    "curl_resolve": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657497990008999175: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "chengandrock": {
     "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9",
@@ -119,7 +116,7 @@
   "gindaieek": {
     "url": "https://www.tiktok.com/@gindaieek/video/7657529190945803541?_r=1&_t=ZS-97fZ7p0Mmbk",
     "views": 266800,
-    "likes": 4126,
+    "likes": 4127,
     "shares": 618,
     "comments": 27,
     "saves": 191,
@@ -137,7 +134,7 @@
   "pankpanq": {
     "url": "https://www.tiktok.com/@pankpanq/video/7658274575548943624?_r=1&_t=ZS-97iyite2tdf",
     "views": 2100000,
-    "likes": 798,
+    "likes": 799,
     "shares": 73,
     "comments": 11,
     "saves": 100,
@@ -236,7 +233,7 @@
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
     "views": 921700,
-    "likes": 855,
+    "likes": 856,
     "shares": 42,
     "comments": 6,
     "saves": 55,
