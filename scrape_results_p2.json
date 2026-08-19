@@ -46,8 +46,8 @@
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
-    "views": 689400,
-    "likes": 3053,
+    "views": 689500,
+    "likes": 3054,
     "shares": 318,
     "comments": 73,
     "saves": 350,
@@ -91,7 +91,7 @@
   },
   "haruyda": {
     "url": "https://www.tiktok.com/@haruyda/video/7657500531279006996?_r=1&_t=ZS-97fRM0DeHgG",
-    "views": 384600,
+    "views": 384700,
     "likes": 16400,
     "shares": 477,
     "comments": 87,
@@ -173,7 +173,7 @@
   "palmmookangrang": {
     "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
     "views": 319700,
-    "likes": 3171,
+    "likes": 3172,
     "shares": 93,
     "comments": 9,
     "saves": 206,
@@ -191,7 +191,7 @@
   "ssaintst": {
     "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484?_r=1&_t=ZS-97fQZ2LCI9h",
     "views": 1400000,
-    "likes": 1271,
+    "likes": 1272,
     "shares": 205,
     "comments": 5,
     "saves": 90,
@@ -224,11 +224,14 @@
     "saves": 122,
     "followers": 0
   },
-  "_debug_mild.prapaipan": {
-    "orig_url": "https://vt.tiktok.com/ZSCKKRbyt/",
-    "curl_resolve": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
-    "ytdlp_returncode": 0
+  "mild.prapaipan": {
+    "url": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC",
+    "views": 115300,
+    "likes": 344,
+    "shares": 21,
+    "comments": 10,
+    "saves": 32,
+    "followers": 0
   },
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
