@@ -26,20 +26,20 @@
     "saves": 161,
     "followers": 0
   },
-  "sristories.official": {
-    "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
-    "views": 2700000,
-    "likes": 1747,
-    "shares": 81,
-    "comments": 11,
-    "saves": 171,
-    "followers": 0
-  },
-  "_debug_mayme_711": {
-    "orig_url": "https://vt.tiktok.com/ZSCxaqXx1/",
-    "curl_resolve": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657901373178105095: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+  "_debug_sristories.official": {
+    "orig_url": "https://vt.tiktok.com/ZSCmW9rtB/",
+    "curl_resolve": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657407456405966101: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
+  },
+  "mayme_711": {
+    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI",
+    "views": 86700,
+    "likes": 208,
+    "shares": 8,
+    "comments": 8,
+    "saves": 33,
+    "followers": 0
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
@@ -50,15 +50,18 @@
     "saves": 350,
     "followers": 0
   },
-  "_debug_ningninkka": {
-    "orig_url": "https://vt.tiktok.com/ZSCmc9UY2/",
-    "curl_resolve": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0|200",
-    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
-    "ytdlp_returncode": 0
+  "ningninkka": {
+    "url": "https://www.tiktok.com/@ningninkka/video/7657493488304475393?_r=1&_t=ZS-97fPApzuYK0",
+    "views": 1500000,
+    "likes": 1262,
+    "shares": 79,
+    "comments": 16,
+    "saves": 124,
+    "followers": 0
   },
   "pizzaplazaa": {
     "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
-    "views": 77800,
+    "views": 77900,
     "likes": 551,
     "shares": 12,
     "comments": 25,
@@ -68,7 +71,7 @@
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
     "views": 389200,
-    "likes": 742,
+    "likes": 741,
     "shares": 43,
     "comments": 6,
     "saves": 41,
@@ -100,7 +103,7 @@
   },
   "chengandrock": {
     "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9",
-    "views": 955900,
+    "views": 956000,
     "likes": 1434,
     "shares": 104,
     "comments": 23,
@@ -108,7 +111,7 @@
     "followers": 0
   },
   "gindaieek": {
-    "url": "https://www.tiktok.com/@gindaieek/video/7657529190945803541?_r=1&_t=ZS-97fZ7p0Mmbk",
+    "url": "https://www.tiktok.com/@gindaieek/video/7657529190945803541",
     "views": 266800,
     "likes": 4127,
     "shares": 618,
@@ -116,14 +119,11 @@
     "saves": 191,
     "followers": 0
   },
-  "googidd": {
-    "url": "https://www.tiktok.com/@googidd/video/7657438555177848084?_r=1&_t=ZS-97fLzN8yCoy",
-    "views": 1900000,
-    "likes": 1645,
-    "shares": 70,
-    "comments": 20,
-    "saves": 157,
-    "followers": 0
+  "_debug_googidd": {
+    "orig_url": "https://vt.tiktok.com/ZSCmsHPmh/",
+    "curl_resolve": "https://www.tiktok.com/@googidd/video/7657438555177848084?_r=1&_t=ZS-97fLzN8yCoy|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\n",
+    "ytdlp_returncode": 0
   },
   "pankpanq": {
     "url": "https://www.tiktok.com/@pankpanq/video/7658274575548943624?_r=1&_t=ZS-97iyite2tdf",
@@ -161,32 +161,23 @@
     "saves": 73,
     "followers": 0
   },
-  "palmmookangrang": {
-    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
-    "views": 319700,
-    "likes": 3173,
-    "shares": 93,
-    "comments": 9,
-    "saves": 206,
-    "followers": 0
+  "_debug_palmmookangrang": {
+    "orig_url": "https://vt.tiktok.com/ZSCuDkWrY/",
+    "curl_resolve": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657476638409624852: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "enjoyeatingclub": {
-    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32",
-    "views": 81300,
-    "likes": 627,
-    "shares": 39,
-    "comments": 4,
-    "saves": 41,
-    "followers": 0
+  "_debug_enjoyeatingclub": {
+    "orig_url": "https://vt.tiktok.com/ZSCujUmoF/",
+    "curl_resolve": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657522946184957204: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "ssaintst": {
-    "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484?_r=1&_t=ZS-97fQZ2LCI9h",
-    "views": 1400000,
-    "likes": 1272,
-    "shares": 205,
-    "comments": 5,
-    "saves": 90,
-    "followers": 0
+  "_debug_ssaintst": {
+    "orig_url": "https://vt.tiktok.com/ZSCmwDGth/",
+    "curl_resolve": "https://www.tiktok.com/@ssaintst/video/7657497110526430484?_r=1&_t=ZS-97fQZ2LCI9h|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657497110526430484: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "_debug_stampginra": {
     "orig_url": "https://vt.tiktok.com/ZSCQT9qpH/",
@@ -194,32 +185,23 @@
     "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7657506652282801429: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "mew_natheera": {
-    "url": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661?_r=1&_t=ZS-97rTDctEMui",
-    "views": 95600,
-    "likes": 667,
-    "shares": 17,
-    "comments": 28,
-    "saves": 54,
-    "followers": 0
+  "_debug_mew_natheera": {
+    "orig_url": "https://vt.tiktok.com/ZSCweqNpu/",
+    "curl_resolve": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661?_r=1&_t=ZS-97rTDctEMui|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660128334587792661: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "faymily_": {
-    "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
-    "views": 584900,
-    "likes": 1237,
-    "shares": 133,
-    "comments": 18,
-    "saves": 122,
-    "followers": 0
+  "_debug_faymily_": {
+    "orig_url": "https://vt.tiktok.com/ZSXkSk17q/",
+    "curl_resolve": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660510969960893717: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
-  "mild.prapaipan": {
-    "url": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC",
-    "views": 115300,
-    "likes": 344,
-    "shares": 21,
-    "comments": 10,
-    "saves": 32,
-    "followers": 0
+  "_debug_mild.prapaipan": {
+    "orig_url": "https://vt.tiktok.com/ZSCKKRbyt/",
+    "curl_resolve": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7659974301428272405: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "_debug_mhingkualoak": {
     "orig_url": "https://vt.tiktok.com/ZSXe3jTp8/",
@@ -227,14 +209,11 @@
     "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660848880002551047: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "thintomorrow": {
-    "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO",
-    "views": 319200,
-    "likes": 148,
-    "shares": 4,
-    "comments": 0,
-    "saves": 15,
-    "followers": 0
+  "_debug_thintomorrow": {
+    "orig_url": "https://vt.tiktok.com/ZSXDt25E6/",
+    "curl_resolve": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7663035286779202837: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   },
   "_debug_farbeer69": {
     "orig_url": "https://vt.tiktok.com/ZSXxqjvra/",
@@ -242,13 +221,10 @@
     "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660843638636973333: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
     "ytdlp_returncode": 1
   },
-  "ninkkieee": {
-    "url": "https://www.tiktok.com/@ninkkieee/video/7660498329041718535?_r=1&_t=ZS-97tAGfeH9bV",
-    "views": 35900,
-    "likes": 34,
-    "shares": 1,
-    "comments": 0,
-    "saves": 6,
-    "followers": 0
+  "_debug_ninkkieee": {
+    "orig_url": "https://vt.tiktok.com/ZSCoSeMU8/",
+    "curl_resolve": "https://www.tiktok.com/@ninkkieee/video/7660498329041718535?_r=1&_t=ZS-97tAGfeH9bV|200",
+    "ytdlp_stderr": "WARNING: [TikTok] The extractor is attempting impersonation, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: [TikTok] 7660498329041718535: Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)\n",
+    "ytdlp_returncode": 1
   }
 }
