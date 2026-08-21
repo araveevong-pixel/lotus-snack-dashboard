@@ -9,7 +9,7 @@
     "followers": 0
   },
   "minkmories": {
-    "url": "https://www.tiktok.com/@/video/7636726243588672786?_r=1&_d=secCgYIASAHKAESPgo8yvKLqjpzfK96v%2FPmK8jNiVnV6WtiCHZZb3UIlzHNko7%2BzCNPUrFpMHQ85gf%2B28j6NQ72fFbIvprnNj2nGgA%3D&u_code=cm23eg8d00m99d&share_item_id=7636726243588672786&timestamp=1778064210&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
+    "url": "https://www.tiktok.com/@/video/7636726243588672786?_r=1&_d=secCgYIASAHKAESPgo8IvBju6HvRVEMCZwUwF7plW832i9z1ZLMiopYZ1ZnlC%2BNVi2pRMfI8koAGopAGdYxDHxT%2B8%2BFp6jqWPskGgA%3D&u_code=cm23eg8d00m99d&share_item_id=7636726243588672786&timestamp=1778064210&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
     "views": 854900,
     "likes": 806,
     "shares": 28,
@@ -26,17 +26,14 @@
     "saves": 12,
     "followers": 0
   },
-  "narongrit11414": {
-    "url": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV",
-    "views": 365500,
-    "likes": 214,
-    "shares": 2,
-    "comments": 2,
-    "saves": 16,
-    "followers": 0
+  "_debug_narongrit11414": {
+    "orig_url": "https://vt.tiktok.com/ZS9EsqqWw/",
+    "curl_resolve": "https://www.tiktok.com/@narongrit11414/video/7639118516175588628?_r=1&_t=ZS-96JOLlXYUHV|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "tanawatpankaew": {
-    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266?_r=1&_t=ZS-96IWW8TWUFg",
+    "url": "https://www.tiktok.com/@tanawatpankaew/video/7638957114957909266",
     "views": 396800,
     "likes": 480,
     "shares": 158,
@@ -46,24 +43,30 @@
   },
   "_debug_fford._.mini": {
     "orig_url": "https://vt.tiktok.com/ZS9bMV5M5/",
-    "curl_resolve": "https://www.tiktok.com/@/video/7636740621125864722?_r=1&_d=secCgYIASAHKAESLgosvhHEf6Un9UWZ6WHOxeeFe32G7%2BSDrk02H1gKVcCROL7F7SH%2BUKLTLGteIVgaAA%3D%3D&u_code=101b229m8&share_item_id=763674062112586472",
+    "curl_resolve": "https://www.tiktok.com/@/video/7636740621125864722?_r=1&_d=secCgYIASAHKAESLgosFRPSTrTy82eEcxoEBRU%2BIlDt3vTBKkixv8Cf59cTFwc9tLyUyCWk7D%2BFxEgaAA%3D%3D&u_code=101b229m8&share_item_id=763674062112586472",
     "ytdlp_stderr": "ERROR: [TikTok] 7636740621125864722: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
     "ytdlp_returncode": 1
   },
-  "_debug_ledswu": {
-    "orig_url": "https://vt.tiktok.com/ZS9G9rGKX/",
-    "curl_resolve": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7637061348291071250: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "ledswu": {
+    "url": "https://www.tiktok.com/@ledswu/video/7637061348291071250?_r=1&_t=ZS-96BKhyxsTHr",
+    "views": 271300,
+    "likes": 5921,
+    "shares": 447,
+    "comments": 19,
+    "saves": 167,
+    "followers": 0
   },
-  "_debug_debuam012": {
-    "orig_url": "https://vt.tiktok.com/ZS9bFpyNh/",
-    "curl_resolve": "https://www.tiktok.com/@/video/7636730773118274817?_r=1&_d=secCgYIASAHKAESPgo8WaRj0UEXb%2Bio4ji0trbsnCG3JKZsf%2Fh%2FRiK%2BFsepQLiNLNXB%2Fv%2B6WnmH%2BiZaZX2dtLFXNlYqt%2F0zvkEZGgA%3D&u_code=djl0lb133i3m",
-    "ytdlp_stderr": "ERROR: [TikTok] 7636730773118274817: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "debuam012": {
+    "url": "https://www.tiktok.com/@/video/7636730773118274817?_r=1&_d=secCgYIASAHKAESPgo88CT%2BdjWCL4z2AW%2F0ms6wdwtTXsqLYo3pwwbsQkYsDGHm6hAfRJo1lTTwgNBAOe3rInk3VdRACAsSG7wDGgA%3D&u_code=djl0lb133i3mmc&share_item_id=7636730773118274817&timestamp=1778065398&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
+    "views": 572800,
+    "likes": 312,
+    "shares": 75,
+    "comments": 10,
+    "saves": 28,
+    "followers": 0
   },
   "saruanly": {
-    "url": "https://www.tiktok.com/@/video/7634869188200254740",
+    "url": "https://www.tiktok.com/@/video/7634869188200254740?_r=1&_d=secCgYIASAHKAESPgo8dIlQWyupPk8mcNCtOf5bgMHwu6PzCknPtsWl1aGUPbpphIqMUgQiNvfFHEB85CHZMFYEjLH64TmWc9OkGgA%3D&u_code=d04g9mf7hc809c&share_item_id=7634869188200254740&timestamp=1777632417&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
     "views": 366300,
     "likes": 1366,
     "shares": 36,
@@ -71,17 +74,14 @@
     "saves": 41,
     "followers": 0
   },
-  "tuajeed.office": {
-    "url": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc",
-    "views": 3400000,
-    "likes": 929,
-    "shares": 30,
-    "comments": 5,
-    "saves": 109,
-    "followers": 0
+  "_debug_tuajeed.office": {
+    "orig_url": "https://vt.tiktok.com/ZSxjfekwg/",
+    "curl_resolve": "https://www.tiktok.com/@tuajeed.office/video/7641139104968674581?_r=1&_t=ZS-96SVHhlcJVc|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7641139104968674581: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "miinez_": {
-    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932?_r=1&_t=ZS-96BmlRH4VgP",
+    "url": "https://www.tiktok.com/@miinez_/video/7637489000676166932",
     "views": 98100,
     "likes": 1608,
     "shares": 34,
@@ -92,8 +92,8 @@
   "_debug_gonsalosol": {
     "orig_url": "https://vt.tiktok.com/ZSx8JCwkq/",
     "curl_resolve": "https://www.tiktok.com/@gonsalosol/video/7640077049130011911?_r=1&_t=ZS-96NeCoGIyKT|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+    "ytdlp_stderr": "ERROR: [TikTok] 7640077049130011911: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "sharkwow.ch": {
     "url": "https://www.tiktok.com/@/video/7638859579744423169/?_r=1&_t=ZS-96IWgLAZW4r",
@@ -104,14 +104,11 @@
     "saves": 91,
     "followers": 0
   },
-  "witbenmoreallright": {
-    "url": "https://www.tiktok.com/@/video/7634892988916714772?_r=1&_d=secCgYIASAHKAESPgo8bvZKrQA8av2nQx1qpAV%2FSibdAlE0CO%2F1bGs8fj6CMEFumv7hKOsEuKqDf1A5boN4AtkVrZ%2FU8p19B0qWGgA%3D&u_code=del53a7mjihgdh&share_item_id=7634892988916714772&timestamp=1777637574&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
-    "views": 1200000,
-    "likes": 1378,
-    "shares": 64,
-    "comments": 19,
-    "saves": 104,
-    "followers": 0
+  "_debug_witbenmoreallright": {
+    "orig_url": "https://vt.tiktok.com/ZS9aABnfe/",
+    "curl_resolve": "https://www.tiktok.com/@/video/7634892988916714772?_r=1&_d=secCgYIASAHKAESPgo8XRLdSSdLrtGCvBTvATOxe9VIv34yahM%2BJzppiAQrxGfuH6IxtjD9cN2tBmKwa5f2keUsi4fN947LdiENGgA%3D&u_code=del53a7mjihgdh&share_item_",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "gampamao": {
     "url": "https://www.tiktok.com/@/video/7634892029494971656",
@@ -129,7 +126,7 @@
     "ytdlp_returncode": 1
   },
   "taloncamp_sg": {
-    "url": "https://www.tiktok.com/@/video/7636770419537825045?_r=1&_d=secCgYIASAHKAESPgo8z5whpD6nxr0KJ2If5ZuZ7iX3LA4ms63psTbYiO4eMuhoiCZJV0NpyZoZsi7yd8NZeEotUOdOM2X9JWcdGgA%3D&u_code=e5m98jflmglf36&share_item_id=7636770419537825045&timestamp=1778075385&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
+    "url": "https://www.tiktok.com/@/video/7636770419537825045?_r=1&_d=secCgYIASAHKAESPgo8OcQg81gj7Cpx5nGSZtZDRSSPNZEJIfWc3cxaZULpqH1cohiEjcUnH4zyJhxYAJ5K1UNVeFIPwhajbGZEGgA%3D&u_code=e5m98jflmglf36&share_item_id=7636770419537825045&timestamp=1778075385&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
     "views": 1400000,
     "likes": 2236,
     "shares": 93,
@@ -138,7 +135,7 @@
     "followers": 0
   },
   "sarun_kritaterakul": {
-    "url": "https://www.tiktok.com/@/video/7634817786115525906?_r=1&_d=secCgYIASAHKAESPgo8BOJjI8zUwIQUQB4vicNc1srDGMeqLWx0U1H2Dba4wgmdXL4tjTU2xbp%2FabZLocM7TCGSoZ3ITCWL%2B0%2FDGgA%3D&u_code=e89jijg4a1l5ce&share_item_id=7634817786115525906&timestamp=1777636532&utm_campaign=client_share&utm_source=short_fallback&share_app_id=1233",
+    "url": "https://www.tiktok.com/@/video/7634817786115525906",
     "views": 1500000,
     "likes": 2560,
     "shares": 294,
@@ -146,10 +143,13 @@
     "saves": 180,
     "followers": 0
   },
-  "_debug_nattienote": {
-    "orig_url": "https://vt.tiktok.com/ZS9vSfoWE/",
-    "curl_resolve": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "nattienote": {
+    "url": "https://www.tiktok.com/@nattienote/video/7637469121331875079?_r=1&_t=ZS-96EjgXI3WmD",
+    "views": 2200000,
+    "likes": 3060,
+    "shares": 155,
+    "comments": 18,
+    "saves": 161,
+    "followers": 0
   }
 }
