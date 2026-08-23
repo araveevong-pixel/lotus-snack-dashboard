@@ -9,7 +9,7 @@
     "followers": 0
   },
   "100lowteens": {
-    "url": "https://www.tiktok.com/@100lowteens/video/7657404036861414674?_r=1&_t=ZS-97ezq3t13pc",
+    "url": "https://www.tiktok.com/@100lowteens/video/7657404036861414674",
     "views": 1600000,
     "likes": 1245,
     "shares": 55,
@@ -17,14 +17,11 @@
     "saves": 138,
     "followers": 0
   },
-  "joinjoy89": {
-    "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
-    "views": 2700000,
-    "likes": 1892,
-    "shares": 252,
-    "comments": 12,
-    "saves": 162,
-    "followers": 0
+  "_debug_joinjoy89": {
+    "orig_url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
+    "curl_resolve": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "sristories.official": {
     "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
@@ -99,7 +96,7 @@
     "followers": 0
   },
   "plaifahhahaha": {
-    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW",
+    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175",
     "views": 661600,
     "likes": 700,
     "shares": 84,
@@ -171,11 +168,11 @@
     "followers": 0
   },
   "palmmookangrang": {
-    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
+    "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852",
     "views": 320000,
     "likes": 3197,
     "shares": 93,
-    "comments": 11,
+    "comments": 10,
     "saves": 218,
     "followers": 0
   },
@@ -207,7 +204,7 @@
     "followers": 0
   },
   "mew_natheera": {
-    "url": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661?_r=1&_t=ZS-97rTDctEMui",
+    "url": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661",
     "views": 95900,
     "likes": 679,
     "shares": 18,
