@@ -35,14 +35,11 @@
     "saves": 171,
     "followers": 0
   },
-  "mayme_711": {
-    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI",
-    "views": 86800,
-    "likes": 209,
-    "shares": 8,
-    "comments": 8,
-    "saves": 33,
-    "followers": 0
+  "_debug_mayme_711": {
+    "orig_url": "https://vt.tiktok.com/ZSCxaqXx1/",
+    "curl_resolve": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657901373178105095: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
@@ -99,7 +96,7 @@
     "followers": 0
   },
   "plaifahhahaha": {
-    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW",
+    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175",
     "views": 661600,
     "likes": 700,
     "shares": 84,
@@ -116,17 +113,14 @@
     "saves": 141,
     "followers": 0
   },
-  "gindaieek": {
-    "url": "https://www.tiktok.com/@gindaieek/video/7657529190945803541?_r=1&_t=ZS-97fZ7p0Mmbk",
-    "views": 267000,
-    "likes": 4130,
-    "shares": 618,
-    "comments": 27,
-    "saves": 192,
-    "followers": 0
+  "_debug_gindaieek": {
+    "orig_url": "https://vt.tiktok.com/ZSCuMCC3W/",
+    "curl_resolve": "https://www.tiktok.com/@gindaieek/video/7657529190945803541?_r=1&_t=ZS-97fZ7p0Mmbk|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "googidd": {
-    "url": "https://www.tiktok.com/@googidd/video/7657438555177848084?_r=1&_t=ZS-97fLzN8yCoy",
+    "url": "https://www.tiktok.com/@googidd/video/7657438555177848084",
     "views": 1900000,
     "likes": 1659,
     "shares": 71,
@@ -144,7 +138,7 @@
     "followers": 0
   },
   "whatpalaa": {
-    "url": "https://www.tiktok.com/@whatpalaa/video/7657575571228003605?_r=1&_t=ZS-97ggea8kR4X",
+    "url": "https://www.tiktok.com/@whatpalaa/video/7657575571228003605",
     "views": 2100000,
     "likes": 946,
     "shares": 56,
@@ -175,21 +169,18 @@
     "views": 320000,
     "likes": 3197,
     "shares": 93,
-    "comments": 11,
+    "comments": 10,
     "saves": 218,
     "followers": 0
   },
-  "enjoyeatingclub": {
-    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32",
-    "views": 81500,
-    "likes": 627,
-    "shares": 39,
-    "comments": 4,
-    "saves": 41,
-    "followers": 0
+  "_debug_enjoyeatingclub": {
+    "orig_url": "https://vt.tiktok.com/ZSCujUmoF/",
+    "curl_resolve": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "ssaintst": {
-    "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484?_r=1&_t=ZS-97fQZ2LCI9h",
+    "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484",
     "views": 1400000,
     "likes": 1274,
     "shares": 207,
@@ -225,7 +216,7 @@
     "followers": 0
   },
   "mild.prapaipan": {
-    "url": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405?_r=1&_t=ZS-97sZcDwceqC",
+    "url": "https://www.tiktok.com/@mild.prapaipan/video/7659974301428272405",
     "views": 115500,
     "likes": 345,
     "shares": 21,
@@ -243,7 +234,7 @@
     "followers": 0
   },
   "thintomorrow": {
-    "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO",
+    "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837",
     "views": 319200,
     "likes": 148,
     "shares": 4,
@@ -252,7 +243,7 @@
     "followers": 0
   },
   "farbeer69": {
-    "url": "https://www.tiktok.com/@farbeer69/video/7660843638636973333?_r=1&_t=ZS-98B2i6kC992",
+    "url": "https://www.tiktok.com/@farbeer69/video/7660843638636973333",
     "views": 2100000,
     "likes": 849,
     "shares": 31,
