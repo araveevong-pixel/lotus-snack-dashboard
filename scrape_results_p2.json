@@ -2,7 +2,7 @@
   "nurse.enjoyea": {
     "url": "https://www.tiktok.com/@nurse.enjoyeat/video/7658264392198294805?_r=1&_t=ZS-97iw6QlKI0u",
     "views": 152900,
-    "likes": 1993,
+    "likes": 1995,
     "shares": 104,
     "comments": 332,
     "saves": 216,
@@ -62,14 +62,11 @@
     "saves": 125,
     "followers": 0
   },
-  "pizzaplazaa": {
-    "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
-    "views": 78500,
-    "likes": 552,
-    "shares": 12,
-    "comments": 25,
-    "saves": 37,
-    "followers": 0
+  "_debug_pizzaplazaa": {
+    "orig_url": "https://vt.tiktok.com/ZSCuJN1pr/",
+    "curl_resolve": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
@@ -175,7 +172,7 @@
     "views": 320100,
     "likes": 3197,
     "shares": 93,
-    "comments": 11,
+    "comments": 10,
     "saves": 218,
     "followers": 0
   },
