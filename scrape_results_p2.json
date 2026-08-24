@@ -21,7 +21,7 @@
     "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
     "views": 2700000,
     "likes": 1892,
-    "shares": 252,
+    "shares": 254,
     "comments": 12,
     "saves": 162,
     "followers": 0
@@ -62,16 +62,19 @@
     "saves": 125,
     "followers": 0
   },
-  "_debug_pizzaplazaa": {
-    "orig_url": "https://vt.tiktok.com/ZSCuJN1pr/",
-    "curl_resolve": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "pizzaplazaa": {
+    "url": "https://www.tiktok.com/@pizzaplazaa/video/7657507639106096405?_r=1&_t=ZS-97fT0W57Mo8",
+    "views": 78500,
+    "likes": 552,
+    "shares": 12,
+    "comments": 25,
+    "saves": 37,
+    "followers": 0
   },
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
     "views": 390300,
-    "likes": 749,
+    "likes": 750,
     "shares": 43,
     "comments": 6,
     "saves": 40,
@@ -125,7 +128,7 @@
   "googidd": {
     "url": "https://www.tiktok.com/@googidd/video/7657438555177848084?_r=1&_t=ZS-97fLzN8yCoy",
     "views": 1900000,
-    "likes": 1659,
+    "likes": 1660,
     "shares": 71,
     "comments": 20,
     "saves": 161,
@@ -214,7 +217,7 @@
   },
   "faymily_": {
     "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
-    "views": 588400,
+    "views": 588500,
     "likes": 1278,
     "shares": 135,
     "comments": 18,
@@ -233,7 +236,7 @@
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
     "views": 922700,
-    "likes": 877,
+    "likes": 878,
     "shares": 44,
     "comments": 6,
     "saves": 56,
