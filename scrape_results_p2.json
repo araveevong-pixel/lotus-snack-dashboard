@@ -1,7 +1,7 @@
 {
   "nurse.enjoyea": {
     "url": "https://www.tiktok.com/@nurse.enjoyeat/video/7658264392198294805?_r=1&_t=ZS-97iw6QlKI0u",
-    "views": 153100,
+    "views": 153200,
     "likes": 1999,
     "shares": 104,
     "comments": 333,
@@ -9,7 +9,7 @@
     "followers": 0
   },
   "100lowteens": {
-    "url": "https://www.tiktok.com/@100lowteens/video/7657404036861414674?_r=1&_t=ZS-97ezq3t13pc",
+    "url": "https://www.tiktok.com/@100lowteens/video/7657404036861414674",
     "views": 1600000,
     "likes": 1246,
     "shares": 55,
@@ -17,17 +17,14 @@
     "saves": 138,
     "followers": 0
   },
-  "joinjoy89": {
-    "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
-    "views": 2700000,
-    "likes": 1894,
-    "shares": 254,
-    "comments": 12,
-    "saves": 162,
-    "followers": 0
+  "_debug_joinjoy89": {
+    "orig_url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
+    "curl_resolve": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "sristories.official": {
-    "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
+    "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101",
     "views": 2700000,
     "likes": 1747,
     "shares": 81,
@@ -36,7 +33,7 @@
     "followers": 0
   },
   "mayme_711": {
-    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095?_r=1&_t=ZS-97hGxUp9DjI",
+    "url": "https://www.tiktok.com/@mayme_711/video/7657901373178105095",
     "views": 86800,
     "likes": 209,
     "shares": 8,
@@ -73,7 +70,7 @@
   },
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
-    "views": 390700,
+    "views": 390800,
     "likes": 752,
     "shares": 43,
     "comments": 6,
@@ -82,7 +79,7 @@
   },
   "bolongkinn": {
     "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB",
-    "views": 588100,
+    "views": 588200,
     "likes": 2082,
     "shares": 88,
     "comments": 19,
@@ -175,21 +172,18 @@
     "views": 320200,
     "likes": 3198,
     "shares": 94,
-    "comments": 11,
+    "comments": 10,
     "saves": 219,
     "followers": 0
   },
-  "enjoyeatingclub": {
-    "url": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32",
-    "views": 81500,
-    "likes": 627,
-    "shares": 39,
-    "comments": 4,
-    "saves": 41,
-    "followers": 0
+  "_debug_enjoyeatingclub": {
+    "orig_url": "https://vt.tiktok.com/ZSCujUmoF/",
+    "curl_resolve": "https://www.tiktok.com/@enjoyeatingclub/video/7657522946184957204?_r=1&_t=ZS-97fXt6zpe32|200",
+    "ytdlp_stderr": "ERROR: [TikTok] 7657522946184957204: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
+    "ytdlp_returncode": 1
   },
   "ssaintst": {
-    "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484?_r=1&_t=ZS-97fQZ2LCI9h",
+    "url": "https://www.tiktok.com/@ssaintst/video/7657497110526430484",
     "views": 1400000,
     "likes": 1275,
     "shares": 207,
@@ -236,7 +230,7 @@
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
     "views": 922800,
-    "likes": 881,
+    "likes": 882,
     "shares": 44,
     "comments": 6,
     "saves": 56,
