@@ -27,7 +27,7 @@
     "followers": 0
   },
   "sristories.official": {
-    "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
+    "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101",
     "views": 2700000,
     "likes": 1747,
     "shares": 81,
@@ -46,11 +46,11 @@
   },
   "tima.chan": {
     "url": "https://www.tiktok.com/@tima.chan/video/7657510313608138005?_r=1&_t=ZS-97fTjbwrbYi",
-    "views": 690900,
-    "likes": 3074,
+    "views": 691000,
+    "likes": 3076,
     "shares": 319,
     "comments": 75,
-    "saves": 357,
+    "saves": 358,
     "followers": 0
   },
   "ningninkka": {
@@ -99,7 +99,7 @@
     "followers": 0
   },
   "plaifahhahaha": {
-    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW",
+    "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175",
     "views": 661700,
     "likes": 700,
     "shares": 84,
@@ -109,7 +109,7 @@
   },
   "chengandrock": {
     "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9",
-    "views": 956500,
+    "views": 956600,
     "likes": 1442,
     "shares": 105,
     "comments": 23,
@@ -175,7 +175,7 @@
     "views": 320100,
     "likes": 3198,
     "shares": 94,
-    "comments": 11,
+    "comments": 10,
     "saves": 219,
     "followers": 0
   },
@@ -218,7 +218,7 @@
   "faymily_": {
     "url": "https://www.tiktok.com/@faymily_/video/7660510969960893717?_r=1&_t=ZS-982c38lm3SG",
     "views": 588900,
-    "likes": 1283,
+    "likes": 1284,
     "shares": 135,
     "comments": 18,
     "saves": 126,
@@ -233,14 +233,11 @@
     "saves": 33,
     "followers": 0
   },
-  "mhingkualoak": {
-    "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
-    "views": 922800,
-    "likes": 880,
-    "shares": 44,
-    "comments": 6,
-    "saves": 56,
-    "followers": 0
+  "_debug_mhingkualoak": {
+    "orig_url": "https://vt.tiktok.com/ZSXe3jTp8/",
+    "curl_resolve": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "thintomorrow": {
     "url": "https://www.tiktok.com/@thintomorrow/video/7663035286779202837?_r=1&_t=ZS-984r3fdOJGO",
