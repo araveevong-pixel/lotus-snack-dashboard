@@ -83,7 +83,7 @@
   "bolongkinn": {
     "url": "https://www.tiktok.com/@bolongkinn/video/7657832848887467284?_r=1&_t=ZS-97h7MayrJDB",
     "views": 588700,
-    "likes": 2091,
+    "likes": 2092,
     "shares": 88,
     "comments": 19,
     "saves": 103,
@@ -108,7 +108,7 @@
     "followers": 0
   },
   "chengandrock": {
-    "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864",
+    "url": "https://www.tiktok.com/@chengandrock/video/7657440774291737864?_r=1&_t=ZS-97fOZLLvdS9",
     "views": 957300,
     "likes": 1455,
     "shares": 105,
@@ -152,11 +152,14 @@
     "saves": 109,
     "followers": 0
   },
-  "_debug_sweettart.tt": {
-    "orig_url": "https://vt.tiktok.com/ZSCxj7s87/",
-    "curl_resolve": "https://www.tiktok.com/@sweettart.tt/video/7657875379192974610?_r=1&_t=ZS-97h9Sp2FN3q|200",
-    "ytdlp_stderr": "ERROR: [TikTok] 7657875379192974610: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n",
-    "ytdlp_returncode": 1
+  "sweettart.tt": {
+    "url": "https://www.tiktok.com/@sweettart.tt/video/7657875379192974610?_r=1&_t=ZS-97h9Sp2FN3q",
+    "views": 1100000,
+    "likes": 757,
+    "shares": 39,
+    "comments": 34,
+    "saves": 89,
+    "followers": 0
   },
   "11.mn.84": {
     "url": "https://www.tiktok.com/@11.mn.84/video/7659730997721746708?_r=1&_t=ZS-97pgfP7FQN2",
@@ -170,9 +173,9 @@
   "palmmookangrang": {
     "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
     "views": 325500,
-    "likes": 3455,
+    "likes": 3456,
     "shares": 114,
-    "comments": 11,
+    "comments": 10,
     "saves": 342,
     "followers": 0
   },
@@ -232,8 +235,8 @@
   },
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
-    "views": 938500,
-    "likes": 905,
+    "views": 938600,
+    "likes": 906,
     "shares": 49,
     "comments": 7,
     "saves": 60,
