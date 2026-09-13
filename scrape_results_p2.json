@@ -4,7 +4,7 @@
     "views": 156700,
     "likes": 2074,
     "shares": 106,
-    "comments": 351,
+    "comments": 348,
     "saves": 222,
     "followers": 0
   },
@@ -17,19 +17,16 @@
     "saves": 140,
     "followers": 0
   },
-  "joinjoy89": {
-    "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
-    "views": 2700000,
-    "likes": 1899,
-    "shares": 254,
-    "comments": 12,
-    "saves": 158,
-    "followers": 0
+  "_debug_joinjoy89": {
+    "orig_url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
+    "curl_resolve": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807|200",
+    "ytdlp_stderr": "",
+    "ytdlp_returncode": 0
   },
   "sristories.official": {
     "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
     "views": 2700000,
-    "likes": 1749,
+    "likes": 1750,
     "shares": 81,
     "comments": 11,
     "saves": 171,
@@ -73,7 +70,7 @@
   },
   "i.prim": {
     "url": "https://www.tiktok.com/@i.prim/video/7657923448685071624?_r=1&_t=ZS-97hPES4comF",
-    "views": 394600,
+    "views": 394700,
     "likes": 771,
     "shares": 43,
     "comments": 6,
@@ -101,7 +98,7 @@
   "plaifahhahaha": {
     "url": "https://www.tiktok.com/@plaifahhahaha/video/7657497990008999175?_r=1&_t=ZS-97fXqzHNCRW",
     "views": 662200,
-    "likes": 702,
+    "likes": 703,
     "shares": 84,
     "comments": 6,
     "saves": 51,
@@ -137,7 +134,7 @@
   "pankpanq": {
     "url": "https://www.tiktok.com/@pankpanq/video/7658274575548943624?_r=1&_t=ZS-97iyite2tdf",
     "views": 2100000,
-    "likes": 806,
+    "likes": 807,
     "shares": 75,
     "comments": 11,
     "saves": 99,
@@ -172,9 +169,9 @@
   },
   "palmmookangrang": {
     "url": "https://www.tiktok.com/@palmmookangrang/video/7657476638409624852?_r=1&_t=ZS-97fcmpapv3l",
-    "views": 325700,
-    "likes": 3462,
-    "shares": 115,
+    "views": 325800,
+    "likes": 3463,
+    "shares": 116,
     "comments": 11,
     "saves": 342,
     "followers": 0
@@ -208,11 +205,11 @@
   },
   "mew_natheera": {
     "url": "https://www.tiktok.com/@mew_natheera/video/7660128334587792661?_r=1&_t=ZS-97rTDctEMui",
-    "views": 97200,
-    "likes": 700,
+    "views": 97300,
+    "likes": 699,
     "shares": 20,
     "comments": 30,
-    "saves": 61,
+    "saves": 60,
     "followers": 0
   },
   "faymily_": {
@@ -235,7 +232,7 @@
   },
   "mhingkualoak": {
     "url": "https://www.tiktok.com/@mhingkualoak/video/7660848880002551047?_r=1&_t=ZS-97v3F1acpfU",
-    "views": 939700,
+    "views": 939900,
     "likes": 907,
     "shares": 49,
     "comments": 7,
