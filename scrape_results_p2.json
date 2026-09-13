@@ -17,11 +17,14 @@
     "saves": 140,
     "followers": 0
   },
-  "_debug_joinjoy89": {
-    "orig_url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
-    "curl_resolve": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807|200",
-    "ytdlp_stderr": "",
-    "ytdlp_returncode": 0
+  "joinjoy89": {
+    "url": "https://www.tiktok.com/@joinjoy89/video/7657534776919788807",
+    "views": 2700000,
+    "likes": 1899,
+    "shares": 254,
+    "comments": 12,
+    "saves": 158,
+    "followers": 0
   },
   "sristories.official": {
     "url": "https://www.tiktok.com/@sristories.official/video/7657407456405966101?_r=1&_t=ZS-97fNuo6Phpo",
@@ -172,7 +175,7 @@
     "views": 325800,
     "likes": 3463,
     "shares": 116,
-    "comments": 11,
+    "comments": 10,
     "saves": 342,
     "followers": 0
   },
@@ -235,7 +238,7 @@
     "views": 939900,
     "likes": 907,
     "shares": 49,
-    "comments": 7,
+    "comments": 8,
     "saves": 60,
     "followers": 0
   },
